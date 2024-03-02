@@ -1,0 +1,112 @@
+:root {
+    --main-color: #28939D;
+    --footer-color: #A08048;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://qcu.edu.ph/wp-content/uploads/2021/10/QCU-BUILDING-1024x683-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 55px;
+    width: 800px;
+}
+
+.border-primary {
+    border-color: var(--footer-color) !important;
+}
+
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    cursor: default;
+}
+
+.nav {
+    font-size: 20px;
+}
+
+#Nav_Signin {
+    background-color: var(--main-color);
+}
+
+#Nav_Register,
+#Nav_Signin {
+    border: 1px solid var(--main-color);
+}
+
+#QCU_Logo {
+    width: 4%;
+}
+
+#signin {
+    background-color: var(--main-color);
+}
+
+#QCian {
+    background-color: white;
+    color: var(--main-color) !important;
+}
+
+#signin,
+#QCian {
+    font-size: 30px;
+    width: 400px;
+    padding: 15px 15px 15px 40px;
+}
+
+#content {
+    gap: 20px;
+}
+
+#content-buttons {
+    margin: 10px;
+}
+
+#header-description {
+    color: yellow;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#copyright {
+    background-color: yellow;
+    margin-bottom: 0;
+}
+
+#footer-details {
+    background-color: var(--footer-color);
+}
+
+#motto {
+    background-color: var(--main-color);
+}
+
+#motto p {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+#main-container {
+    height: 100vh;
+}
+
+#address, #form {
+    width: 50%;
+}
+
+#message {
+    width: 100%;
+}
+
+#form-grid {
+    margin: 0;
+}
