@@ -1,0 +1,14 @@
+:root {
+    --main-color: #28939D;
+    --footer-color: #A08048;
+}
+
+#content-form {
+    background-color: white;
+    border-radius: 30px;
+}
+
+#signin {
+    background-color: var(--footer-color);
+    width: 100%;
+}

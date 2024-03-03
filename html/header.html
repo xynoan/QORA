@@ -1,0 +1,55 @@
+<nav class="py-3 bg-body-tertiary border-bottom border-5 border-primary">
+    <div class="container d-flex justify-content-between flex-wrap">
+        <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+
+            <!--
+            Some spans to act as a hamburger.
+            
+            They are acting like a real hamburger,
+            not that McDonalds stuff.
+            -->
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <ul id="menu">
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Info</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+                <a href="https://erikterwan.com/" target="_blank">
+                    <li>Show me more</li>
+                </a>
+            </ul>
+        </div>
+        <a class="navbar-brand fw-bold text-uppercase" href="./index.php">
+            <img src="https://i0.wp.com/qcu.edu.ph/wp-content/uploads/2021/10/cropped-logo.jpg?fit=1500%2C1500&ssl=1"
+                alt="QCU Logo" width="50" height="50" class="img-fluid text-wrap" />Quezon City University |
+            Admissions Office
+        </a>
+        <ul class="nav gap-3 fw-bold">
+            <li class="nav-item"><a href="#" id="Nav_Register" class="nav-link link-body-emphasis px-2">Register</a>
+            </li>
+            <li class="nav-item"><a href="./signin.php" id="Nav_Signin"
+                    class="nav-link link-body-emphasis px-2 text-white">Sign in</a>
+            </li>
+        </ul>
+    </div>
+</nav>
