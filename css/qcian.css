@@ -1,0 +1,19 @@
+body {
+    background-image: none;
+    background-color: var(--qcian);
+}
+
+h1 {
+    color: var(--footer-color);
+}
+
+h2#subHeading {
+    background-color: var(--footer-color);
+    margin-bottom: 0;
+    padding: 15px 15px 15px 40px;
+}
+
+#qcian-details {
+    background-color: white;
+}
+
