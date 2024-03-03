@@ -110,3 +110,7 @@ h1 {
 #form-grid {
     margin: 0;
 }
+
+#submitMessage {
+    background-color: var(--main-color);
+}
