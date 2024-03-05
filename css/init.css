@@ -49,6 +49,10 @@ body {
   width: 4%;
 }
 
+#header {
+  font-size: 18px;
+}
+
 /* hamburger style */
 
 #menuToggle {
@@ -182,6 +186,8 @@ body {
 
 #submitMessage {
   background-color: var(--main-color);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #copyright {

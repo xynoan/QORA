@@ -1,7 +1,7 @@
 <nav class="py-3 bg-body-tertiary border-bottom border-5 border-primary">
     <div class="container d-flex justify-content-between flex-wrap">
         <div id="menuToggle">
-            <input type="checkbox" onclick="triggerHamburger()"/>
+            <input type="checkbox" onclick="triggerHamburger()" />
             <span></span>
             <span></span>
             <span></span>
@@ -23,13 +23,17 @@
                 </a>
             </ul>
         </div>
-        <a class="navbar-brand fw-bold text-uppercase" href="./index.php">
+        <a class="navbar-brand fw-bold text-uppercase d-flex align-items-start" href="./index.php">
             <img src="https://i0.wp.com/qcu.edu.ph/wp-content/uploads/2021/10/cropped-logo.jpg?fit=1500%2C1500&ssl=1"
-                alt="QCU Logo" width="50" height="50" class="img-fluid text-wrap" />Quezon City University |
-            Admissions Office
+                alt="QCU Logo" width="50" height="30" class="img-fluid text-wrap" />
+            <p id="header" class="m-0">
+                Quezon City University <br>
+                Admissions Office
+            </p>
         </a>
         <ul class="nav gap-3 fw-bold">
-            <li class="nav-item"><a href="#" id="Nav_Register" class="nav-link link-body-emphasis px-2">Register</a>
+            <li class="nav-item"><a href="../php/register.php" id="Nav_Register"
+                    class="nav-link link-body-emphasis px-2">Register</a>
             </li>
             <li class="nav-item"><a href="./signin.php" id="Nav_Signin"
                     class="nav-link link-body-emphasis px-2 text-white">Sign in</a>

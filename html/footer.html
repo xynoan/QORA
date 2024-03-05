@@ -17,7 +17,7 @@
                 <h2 class="fw-bold">Office Hours</h2>
                 <p><i class="fa-solid fa-clock"></i> Monday to Friday : 8:00 AM to 5:00 PM </p>
             </div>
-            <div id="form"">
+            <div id="form">
                 <h2 class="fw-bold">HOW CAN WE ASSIST? </h2>
                 <p>We are here to address any questions you may have. Please contact us and we will get back to you
                     as
@@ -25,14 +25,18 @@
                     as possible </p>
                 <form action="" method="post">
                     <div class="row row-cols-2 row-gap-1 mb-1" id="form-grid">
-                        <input type="text" name="" id="" placeholder="Name (LN, FN, MI.)">
-                        <input type="email" name="" id="" placeholder="E-mail Address">
-                        <input type="number" name="" id="" placeholder="Year Level">
-                        <input type="text" name="" id="" placeholder="Course/Program">
+                        <div class="input-group p-0">
+                            <input class="form-control" type="text" name="" id="" placeholder="Name (LN, FN, MI.)">
+                            <input class="form-control" type="email" name="" id="" placeholder="E-mail Address">
+                        </div>
+                        <div class="input-group p-0">
+                            <input class="form-control" type="number" name="" id="" placeholder="Year Level">
+                            <input class="form-control" type="text" name="" id="" placeholder="Course/Program">
+                        </div>
                     </div>
-                    <textarea class="d-block" name="" id="message" cols="30" rows="10"
+                    <textarea class="d-block form-control" name="" id="message" cols="30" rows="10"
                         placeholder="Compose Message..."></textarea>
-                    <button type="submit" class="btn text-white p-3 fw-bold mt-2" id="submitMessage"><i class="fa-solid fa-envelope-open"></i> Send Message</button>
+                    <button type="submit" class="btn text-white p-3 fw-bold mt-2 d-block" id="submitMessage"><i class="fa-solid fa-envelope-open"></i> Send Message</button>
                 </form>
             </div>
         </div>
