@@ -26,6 +26,7 @@ body {
 .navbar-brand {
   font-family: 'Times New Roman', Times, serif;
   font-size: 25px;
+  width: 500px;
 }
 
 .nav {
