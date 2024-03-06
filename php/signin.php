@@ -19,7 +19,7 @@
     <div class="container d-flex justify-content-center align-items-center" id="main-container">
         <div id="content-form" class="p-5">
             <h1 class="text-center mb-3">Sign in</h1>
-            <form action="" method="post">
+            <form action="./enrollment.php" method="post">
                 <input class="d-block form-control mb-3" type="text" name="" id="" placeholder="Email">
                 <input class="d-block form-control mb-3" type="password" name="" id="" placeholder="Password">
                 <div class="mb-3">
