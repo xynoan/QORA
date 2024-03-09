@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 h1 {
     font-size: 45px;
     width: 700px;
@@ -27,10 +29,14 @@ h1 {
     margin: 10px;
 }
 
-#header-description {
+.dancing-script-header-description {
     color: yellow;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 2px;
 }
 
 #beside_grid {

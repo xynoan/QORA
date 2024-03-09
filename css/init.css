@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
   --main-color: #28939D;
   --footer-color: #A08048;
@@ -11,9 +13,9 @@
 }
 
 body {
-  background-image: url("https://qcu.edu.ph/wp-content/uploads/2021/10/QCU-BUILDING-1024x683-1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../images/Backround-Image.png");
+  font-family: "Poppins", sans-serif;
+  background-size: contain;
 }
 
 
@@ -22,11 +24,15 @@ body {
 }
 
 /* navbar */
+nav {
+  background-image: url('../images/Banner-1.png');
+  background-size: 1500px 100px;
+}
 
 .navbar-brand {
   font-family: 'Times New Roman', Times, serif;
   font-size: 25px;
-  width: 889px;
+  width: 877px;
 }
 
 .nav {
@@ -161,7 +167,9 @@ body {
 }
 
 #motto {
-  background-color: var(--main-color);
+  background-image: url('../images/Banner-2.png');
+  height: 80px;
+  background-size: 1500px 80px;
 }
 
 #motto p {
@@ -170,7 +178,7 @@ body {
 }
 
 #main-container {
-  height: 100vh;
+  height: 90vh;
 }
 
 #address,

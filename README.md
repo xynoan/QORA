@@ -18,3 +18,4 @@ Note: If something went wrong, feel free to google it.
 - FontAwesome (for icons)
 - Bootstrap (css framework)
 - PHP (to prevent redundancy of header, footer of html files)
+- Google Fonts
