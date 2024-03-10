@@ -2,27 +2,7 @@
     width: 20%;
 }
 
-.courseWidth {
-    width: 400px;
-}
-
-.course {
-    width: 35% !important;
-}
-
-.form-select {
-    width: 10%;
-}
-
 #content-form {
     background-color: white;
     border-radius: 30px;
-}
-
-#main-container {
-    height: 130vh;
-}
-
-#accred {
-    width: 45%;
 }
