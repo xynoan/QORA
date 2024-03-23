@@ -7,7 +7,7 @@
 ```
 git clone https://github.com/xynoan/QORA.git
 ```
-5. Open you preferred web browser and go to `http://localhost/prototype/php/index.php`.
+5. Open you preferred web browser and go to `http://localhost/QORA/php/index.php`.
 6. Voila! You should be able to see the website.
 
 Note: If something went wrong, feel free to google it.
