@@ -1,6 +1,6 @@
-<nav class="py-3 border-bottom border-5 border-primary">
-    <div class="container d-flex justify-content-between flex-wrap">
-        <div id="menuToggle">
+<nav class="fixed-top">
+    <div class="container d-flex justify-content-between flex-wrap align-items-center p-3">
+        <!-- <div id="menuToggle">
             <input type="checkbox" onclick="triggerHamburger()" />
             <span></span>
             <span></span>
@@ -22,22 +22,16 @@
                     <li>Contact Info >></li>
                 </a>
             </ul>
+        </div> -->
+        <div class="d-flex align-items-center gap-3 flex-wrap">
+            <p class="m-0">dropdown :0</p>
+            <a href="./index.php" class="text-decoration-none fw-bold fs-2" style="color: var(--main-color);">QORA</a>
         </div>
-        <a class="navbar-brand fw-bold text-uppercase d-flex align-items-start" href="./index.php">
-            <img src="../images/QCU-Logo.png"
-                alt="QCU Logo" width="46" class="img-fluid text-wrap" />
-            <p id="header" class="m-0">
-                Quezon City University <br>
-                Admissions Office
-            </p>
-        </a>
         <ul class="nav gap-3 fw-bold">
-            <li class="nav-item"><a href="../php/register.php" id="Nav_Register"
-                    class="nav-link link-body-emphasis px-2">Register</a>
-            </li>
-            <li class="nav-item"><a href="./signin.php" id="Nav_Signin"
-                    class="nav-link link-body-emphasis px-2 text-white">Sign in</a>
+            <li class="nav-item"><a href="./signin.php" class="nav-link px-2 text-white nav_signin">Sign in</a>
             </li>
         </ul>
     </div>
+    <p class="text-uppercase fs-4 text-center text-white p-2 m-0 border-top border-3 border-primary" style="background-color: black;">mula sa tahanan ng husay
+        at talino, para sa bayan...</p>
 </nav>
