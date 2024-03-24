@@ -28,7 +28,7 @@
 
 <body>
     <?php include('../html/header.html'); ?>
-    <main>
+    <!-- <main>
         <section>
             <div class="container d-flex align-items-end justify-content-end">
                 <h1 class="fw-bold text-center text-white text-uppercase p-4">30 years of empowering education from #1 city to global society</h1>
@@ -40,7 +40,7 @@
             </div>
         </section>
     </main>
-    <?php include('../html/footer.html'); ?>
+    <?php include('../html/footer.html'); ?> -->
     <?php include('../html/script.html'); ?>
 </body>
 

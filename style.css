@@ -95,20 +95,35 @@ hr {
   transform: translateX(0);
 }
 
+/* ----------------------------------------- */
+.has-submenu:hover .submenu,
+.has-submenu2:hover .submenu2,
+.has-submenu3:hover .submenu3,
+.has-submenu4:hover .submenu4,
+.has-submenu5:hover .submenu5 {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0);
+}
+
 .submenu,
-.submenu2 {
+.submenu2,
+.submenu3,
+.submenu4,
+.submenu5 {
+  visibility: hidden;
   opacity: 0;
   position: absolute;
-  top: 215px;
-  left: 465px;
   background-color: var(--main-color);
   padding: 10px;
   transition: transform 0.5s ease;
   transform: translateX(-10%);
+  left: 475px;
 }
 
 .submenu {
   width: 30% !important;
+  top: 215px;
 }
 
 .submenu>hr {
@@ -118,13 +133,20 @@ hr {
 .submenu2 {
   width: 80% !important;
   top: 210px;
-  left: 390px;
+  left: 380px;
 }
 
-.has-submenu:hover .submenu,
-.has-submenu2:hover .submenu2 {
-  opacity: 1;
-  transform: translateX(0);
+.submenu3 li {
+  height: 15px;
+}
+
+.submenu3,
+.submenu5 {
+  top: 140px;
+}
+
+.submenu4 {
+  top: 290px;
 }
 
 /* end of hamburger */
