@@ -1,30 +1,61 @@
 <nav class="fixed-top">
     <div class="container d-flex justify-content-between flex-wrap align-items-center p-3">
-        <!-- <div id="menuToggle">
-            <input type="checkbox" onclick="triggerHamburger()" />
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul id="menu" class="invisible">
-                <a href="#">
-                    <li>General Info >></li>
-                    <hr>
-                </a>
-                <a href="#">
-                    <li>Programs Offered >></li>
-                    <hr>
-                </a>
-                <a href="#">
-                    <li>Campus >></li>
-                    <hr>
-                </a>
-                <a href="#">
-                    <li>Contact Info >></li>
-                </a>
-            </ul>
-        </div> -->
         <div class="d-flex align-items-center gap-3 flex-wrap">
-            <p class="m-0">dropdown :0</p>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div class="nav-menu">
+                <p class="text-white text-center mt-4 fs-1 qora_paragraph">QORA</p>
+                <div class="container">
+                    <ul class="p-0 mt-5 d-inline-block">
+                        <li><a href="#" class="fs-3">Be a QCIAN
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i
+                                        class="fa-solid fa-chevron-right"></i><i
+                                        class="fa-solid fa-chevron-right"></i></span></a></li>
+                        <hr>
+                        <li class="has-submenu"><a href="#" class="fs-3">Programs Offered
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fa-solid fa-chevron-right"></i><i
+                                        class="fa-solid fa-chevron-right"></i></span></a>
+                            <ul class="submenu">
+                                <li><a href="#" class="fs-4 text-uppercase">college of business and accountancy
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i
+                                                class="fa-solid fa-chevron-right"></i><i
+                                                class="fa-solid fa-chevron-right"></i></span></a></li>
+                                <hr>
+                                <li><a href="#" class="fs-4 text-uppercase">college of computer studies
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i
+                                                class="fa-solid fa-chevron-right"></i><i
+                                                class="fa-solid fa-chevron-right"></i></span></a></li>
+                                <hr>
+                                <li class="has-submenu2"><a href="#" class="fs-4 text-uppercase">college of education
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fa-solid fa-chevron-right"></i><i
+                                                class="fa-solid fa-chevron-right"></i></span></a>
+                                    <ul class="submenu2">
+                                        <li><a href="#" class="fs-5 text-uppercase">bachelor of early childhood
+                                                education </a></li>
+                                    </ul>
+                                </li>
+                                <hr>
+                                <li><a href="#" class="fs-4 text-uppercase">college of engineering &nbsp;&nbsp;<span><i
+                                                class="fa-solid fa-chevron-right"></i><i
+                                                class="fa-solid fa-chevron-right"></i></span></a></li>
+                            </ul>
+                        </li>
+                        <hr>
+                        <li><a href="#" class="fs-3">Campus
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i
+                                        class="fa-solid fa-chevron-right"></i><i
+                                        class="fa-solid fa-chevron-right"></i></span></a></li>
+                        <hr>
+                        <li><a href="#" class="fs-3">Contact Us
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i
+                                        class="fa-solid fa-chevron-right"></i><i
+                                        class="fa-solid fa-chevron-right"></i></span></a></li>
+                    </ul>
+                </div>
+            </div>
             <a href="./index.php" class="text-decoration-none fw-bold fs-2" style="color: var(--main-color);">QORA</a>
         </div>
         <ul class="nav gap-3 fw-bold">
@@ -32,6 +63,7 @@
             </li>
         </ul>
     </div>
-    <p class="text-uppercase fs-4 text-center text-white p-2 m-0 border-top border-3 border-primary" style="background-color: black;">mula sa tahanan ng husay
+    <p class="text-uppercase fs-4 text-center text-white p-2 m-0 border-top border-3 border-primary"
+        style="background-color: black;">mula sa tahanan ng husay
         at talino, para sa bayan...</p>
 </nav>
