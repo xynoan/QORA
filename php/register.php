@@ -5,16 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include('../html/link.html') ?>
-    <link rel="stylesheet" href="../css/register.css">
     <title>Quezon City University - Register</title>
+    <style>
+        #main-container {
+            margin-top: 170px;
+            margin-bottom: 50px;
+        }
+
+        .step1 {
+            width: 20%;
+        }
+
+        #content-form {
+            border: 2px solid var(--main-color);
+            border-radius: 30px;
+        }
+    </style>
 </head>
 
 <body>
     <?php include('../html/header.html'); ?>
     <div class="container" id="main-container">
         <div id="content-form" class="p-5 mt-3">
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
-                aria-valuemin="0" aria-valuemax="100">
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 20%"></div>
             </div>
             <h1 class="mt-3">Basic Information</h1>
@@ -37,8 +50,7 @@
             <p class="fw-bold">Applying as (Choose appropriate answer)</p>
             <input type="checkbox" name="" id=""> Senior High School Graduate
             <div class="dropdown d-inline-block">
-                <button class="btn border-black dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
+                <button class="btn border-black dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Track
                 </button>
                 <ul class="dropdown-menu">
@@ -48,8 +60,7 @@
                 </ul>
             </div>
             <div class="dropdown d-inline-block">
-                <button class="btn border-black dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
+                <button class="btn border-black dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Strand
                 </button>
                 <ul class="dropdown-menu">
@@ -66,8 +77,7 @@
             <div class="input-group gap-1 align-items-baseline">
                 <p>Applying for Accreditation of Subjects? </p>
                 <div class="dropdown d-inline-block">
-                    <button class="btn border-black dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                    <button class="btn border-black dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Select One
                     </button>
                     <ul class="dropdown-menu">

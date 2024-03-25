@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include('../html/link.html') ?>
-    <title>Quezon City University - Data Privacy Notice</title>
+    <title>Quezon City University - GENERAL ADMISSION POLICY</title>
     <style>
         main {
             margin-top: 150px;
@@ -32,7 +32,7 @@
     <?php include('../html/header.html') ?>
     <main class="container">
         <div class="border border-black rounded-top-3 rounded-bottom-5" id="section">
-            <h2 class="text-white rounded-top-3" id="subHeading">DATA PRIVACY NOTICE</h2>
+            <h2 class="text-white rounded-top-3" id="subHeading">GENERAL ADMISSION POLICY</h2>
             <p id="qcian-details" class="p-5 rounded-bottom-5">A student desiring to enroll in Quezon City University
                 has to comply with the following
                 Admission

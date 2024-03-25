@@ -23,9 +23,7 @@
             height: 110vh;
         }
 
-        .border-primary {
-            border-color: #A08048 !important;
-        }
+        
 
         .first_half {
             width: 65%;
@@ -40,6 +38,7 @@
         }
 
         .first_half>.nav_buttons {
+            display: block;
             border-radius: 15px;
             padding-left: 20px !important;
         }
@@ -85,25 +84,25 @@
                 <h2 class="fw-bold py-4 fs-1" style="color: var(--brown);">Hello, Future QCian!</h2>
                 <div class="d-flex gap-5 flex-wrap">
                     <div class="first_half">
-                        <p class="text-uppercase nav_buttons text-white p-2 mb-2">Data Privacy Notice</p>
-                        <p class="text-uppercase nav_buttons text-white p-2 mb-2">General Admission Policy</p>
-                        <p class="text-uppercase nav_buttons text-white p-2 mb-2">Selection for a degree program and campus</p>
-                        <p class="text-uppercase nav_buttons text-white p-2 mb-2">Freshmen admission requirements</p>
-                        <p class="text-uppercase nav_buttons text-white p-2 mb-2">QCUCAT procedure</p>
-                        <p class="text-uppercase nav_buttons text-white p-2 mb-2">Admissions Guidelines: Classification</p>
-                        <p class="text-uppercase nav_buttons text-white p-2 mb-2">Admissions Guidelines: Qualification</p>
-                        <p class="text-uppercase nav_buttons text-white p-2 mb-2">Program Curriculum</p>
-                        <p class="text-uppercase nav_buttons text-white p-2">Grading System</p>
+                        <a href="./dpn.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Data Privacy Notice</a>
+                        <a href="./gap.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">General Admission Policy</a>
+                        <a href="./sdc.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Selection for a degree program and campus</a>
+                        <a href="./far.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Freshmen admission requirements</a>
+                        <a href="./qcucat.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">QCUCAT procedure</a>
+                        <a href="./agc.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Admissions Guidelines: Classification</a>
+                        <a href="./agq.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Admissions Guidelines: Qualification</a>
+                        <a href="./pc.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Program Curriculum</a>
+                        <a href="./gs.php" class="text-uppercase nav_buttons text-white p-2 text-decoration-none">Grading System</a>
                     </div>
                     <div class="second_half">
                         <div class="register mb-2">
                             <p class="header text-white text-center p-2">NEW APPLICANT</p>
                             <p class="text-center">Do not have an account yet?</p>
-                            <p class="text-center register_anchor m-3 p-1 rounded-4"><a href="./register.php" class="text-white text-decoration-none">REGISTER</a></p>
+                            <a href="./register.php" class="d-block text-white text-decoration-none text-center register_anchor m-3 p-1 rounded-4">REGISTER</a>
                         </div>
                         <div class="login">
                             <p class="text-center text-white header p-2 m-0">LOG IN</p>
-                            <form action="" class="p-4 d-flex flex-column">
+                            <form action="./enrollment.php" class="p-4 d-flex flex-column">
                                 <input class="form-control mb-2 email" type="email" name="" id="" placeholder="Email">
                                 <input class="form-control password" type="password" name="" id="" placeholder="Password">
                                 <div class="d-flex forgot_password gap-1 mt-3">

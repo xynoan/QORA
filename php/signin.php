@@ -5,8 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include('../html/link.html') ?>
-    <link rel="stylesheet" href="../css/signin.css">
     <title>Quezon City University - Sign in</title>
+    <style>
+        #main-container {
+            margin-top: 175px;
+            margin-bottom: 50px;
+        }
+
+        #content-form {
+            border-radius: 30px;
+            border: 2px solid var(--main-color);
+        }
+
+        #signin {
+            background-color: var(--footer-color);
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
