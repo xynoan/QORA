@@ -100,7 +100,11 @@ hr {
 .has-submenu2:hover .submenu2,
 .has-submenu3:hover .submenu3,
 .has-submenu4:hover .submenu4,
-.has-submenu5:hover .submenu5 {
+.has-submenu5:hover .submenu5,
+.has-submenu6:hover .submenu6,
+.has-submenu7:hover .submenu7,
+.has-submenu8:hover .submenu8,
+.has-submenu9:hover .submenu9 {
   visibility: visible;
   opacity: 1;
   transform: translateX(0);
@@ -110,7 +114,11 @@ hr {
 .submenu2,
 .submenu3,
 .submenu4,
-.submenu5 {
+.submenu5,
+.submenu6,
+.submenu7,
+.submenu8,
+.submenu9 {
   visibility: hidden;
   opacity: 0;
   position: absolute;
@@ -143,6 +151,30 @@ hr {
 .submenu3,
 .submenu5 {
   top: 140px;
+}
+
+.submenu6,
+.submenu7,
+.submenu8,
+.submenu9 {
+  width: 100% !important;
+  left: 425px;
+}
+
+.submenu8 {
+  top: 0px;
+}
+
+.submenu9 {
+  top: 100px;
+}
+
+.submenu6 {
+  top: 215px;
+}
+
+.submenu7 {
+  top: 310px;
 }
 
 .submenu4 {
