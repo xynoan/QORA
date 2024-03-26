@@ -16,17 +16,20 @@
         }
 
         section:first-child {
-            background-color: var(--secondary-color);
+            background-image: url(../images/Backround-Image.png);
+            background-size: 1500px 700px;
         }
 
         section:first-child>div {
-            height: 110vh;
+            height: 100vh;
         }
 
-        
-
         .first_half {
-            width: 65%;
+            width: 60%;
+        }
+
+        .second_half {
+            width: 35%;
         }
 
         .first_half>.nav_buttons,
@@ -43,8 +46,8 @@
             padding-left: 20px !important;
         }
 
-        .second_half {
-            width: 25%;
+        .login {
+            height: 270px;
         }
 
         .register,
@@ -82,7 +85,7 @@
         <section>
             <div class="container">
                 <h2 class="fw-bold py-4 fs-1" style="color: var(--brown);">Hello, Future QCian!</h2>
-                <div class="d-flex gap-5 flex-wrap">
+                <div class="d-flex gap-4 flex-wrap">
                     <div class="first_half">
                         <a href="./dpn.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Data Privacy Notice</a>
                         <a href="./gap.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">General Admission Policy</a>
@@ -106,10 +109,12 @@
                                 <input class="form-control mb-2 email" type="email" name="" id="" placeholder="Email">
                                 <input class="form-control password" type="password" name="" id="" placeholder="Password">
                                 <div class="d-flex forgot_password gap-1 mt-3">
-                                    <div class="input-group d-flex align-items-center gap-1">
-                                        <input type="checkbox" name="" id="remember"><label for="remember">Remember Me</label>
+                                    <div class="input-group d-flex gap-1 justify-content-between">
+                                        <div>
+                                            <input class="me-1" type="checkbox" name="" id="remember"><label for="remember">Remember Me</label>
+                                        </div>
+                                        <a href="#" class="text-black">Forgot Password?</a>
                                     </div>
-                                    <a href="#" class="text-black">Forgot Password?</a>
                                 </div>
                                 <button class="btn login_btn text-white rounded-5 mt-3" type="submit">LOG IN</button>
                             </form>
