@@ -25,6 +25,18 @@
         div#section {
             margin-bottom: 2rem;
         }
+
+        .fa-arrow-rotate-left {
+            font-size: 25px;
+            border: 2px solid black;
+            border-radius: 50%;
+        }
+
+        .container>div>a.back {
+            position: absolute;
+            top: 155px;
+            left: 35px;
+        }
     </style>
 </head>
 
@@ -32,7 +44,8 @@
     <?php include('../html/header.html') ?>
     <main class="container">
         <div class="border border-black rounded-top-3 rounded-bottom-5" id="section">
-            <h2 class="text-white rounded-top-3" id="subHeading">ADMISSIONS GUIDELINES: Classifications</h2>
+            <a href="./index.php#dpn" class="back"><i class="fa-solid fa-arrow-rotate-left p-2 text-black"></i></a>
+            <h2 class="text-white rounded-top-3 rounded-bottom-4" id="subHeading">ADMISSIONS GUIDELINES: Classifications</h2>
             <div id="qcian-details" class="p-5 rounded-bottom-5">
                 <h3>1. FRESHMEN</h3>
                 <p>

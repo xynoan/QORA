@@ -81,7 +81,7 @@
     <main>
         <section>
             <div class="container d-flex align-items-end justify-content-end">
-                <h1 class="fw-bold text-center text-white text-uppercase p-4">30 years of empowering education from #1 city to global society</h1>
+                <h1 id="navigation_links" class="fw-bold text-center text-white text-uppercase p-4">30 years of empowering education from #1 city to global society</h1>
             </div>
         </section>
         <section>
@@ -89,7 +89,7 @@
                 <h2 class="fw-bold py-4 fs-1" style="color: var(--brown);">Hello, Future QCian!</h2>
                 <div class="d-flex gap-4 flex-wrap">
                     <div class="first_half">
-                        <a href="./dpn.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Data Privacy Notice</a>
+                        <a href="./dpn.php" id="dpn" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Data Privacy Notice</a>
                         <a href="./gap.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">General Admission Policy</a>
                         <a href="./sdc.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Selection for a degree program and campus</a>
                         <a href="./far.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Freshmen admission requirements</a>

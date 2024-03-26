@@ -25,14 +25,27 @@
         div#section {
             margin-bottom: 2rem;
         }
+
+        .fa-arrow-rotate-left {
+            font-size: 25px;
+            border: 2px solid black;
+            border-radius: 50%;
+        }
+
+        .container>a.back {
+            position: absolute;
+            top: 155px;
+            left: 35px;
+        }
     </style>
 </head>
 
 <body>
     <?php include('../html/header.html') ?>
     <main class="container">
+        <a href="./index.php#navigation_links" class="back"><i class="fa-solid fa-arrow-rotate-left p-2 text-black"></i></a>
         <div class="border border-black rounded-top-3 rounded-bottom-5" id="section">
-            <h2 class="text-white rounded-top-3" id="subHeading">GENERAL ADMISSION POLICY</h2>
+            <h2 class="text-white rounded-top-3 rounded-bottom-4" id="subHeading">GENERAL ADMISSION POLICY</h2>
             <p id="qcian-details" class="p-5 rounded-bottom-5">A student desiring to enroll in Quezon City University
                 has to comply with the following
                 Admission
