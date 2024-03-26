@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include('../html/link.html') ?>
-    <title>Quezon City University - GENERAL ADMISSION POLICY</title>
-    <style>
-        main {
+<?php
+$pageTitle = "GENERAL ADMISSION POLICY";
+$customStyle = '
+    main {
             margin-top: 150px;
         }
 
@@ -32,21 +26,15 @@
             border-radius: 50%;
         }
 
-        .container>a.back {
+        .container>div>a.back {
             position: absolute;
             top: 155px;
             left: 35px;
         }
-    </style>
-</head>
-
-<body>
-    <?php include('../html/header.html') ?>
-    <main class="container">
-        <a href="./index.php#navigation_links" class="back"><i class="fa-solid fa-arrow-rotate-left p-2 text-black"></i></a>
-        <div class="border border-black rounded-top-3 rounded-bottom-5" id="section">
-            <h2 class="text-white rounded-top-3 rounded-bottom-4" id="subHeading">GENERAL ADMISSION POLICY</h2>
-            <p id="qcian-details" class="p-5 rounded-bottom-5">A student desiring to enroll in Quezon City University
+';
+$backLink = "./index.php#navigation_links";
+$dynamicContent = '
+    <p>A student desiring to enroll in Quezon City University
                 has to comply with the following
                 Admission
                 requirements: <br> <br>
@@ -59,10 +47,7 @@
                 5. Must be a senior high school graduate, high school graduate (old curriculum), or ALS passer<br>
                 eligible for college<br>
                 6. Must pass the department interview</p>
-        </div>
-    </main>
-    <?php include('../html/footer.html') ?>
-    <?php include('../html/script.html') ?>
-</body>
+';
 
-</html>
+include('./faq_template.php');
+?>

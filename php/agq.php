@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include('../html/link.html') ?>
-    <title>Quezon City University - ADMISSIONS GUIDELINES: Qualifications</title>
-    <style>
-        main {
+<?php
+$pageTitle = "ADMISSIONS GUIDELINES: Qualifications";
+$customStyle = '
+    main {
             margin-top: 150px;
         }
 
@@ -19,11 +13,31 @@
 
         #qcian-details {
             background-color: white;
+            height: 60vh;
             margin-bottom: 0;
+            overflow-y: auto;
         }
-
+        
         div#section {
             margin-bottom: 2rem;
+            overflow: hidden;
+        }
+
+        #qcian-details::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            background-color: #F5F5F5;
+        }
+        
+        #qcian-details::-webkit-scrollbar {
+            width: 5px;
+            background-color: #F5F5F5;
+        }
+        
+        #qcian-details::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+            background-color: #555;
         }
 
         .fa-arrow-rotate-left {
@@ -37,17 +51,10 @@
             top: 155px;
             left: 35px;
         }
-    </style>
-</head>
-
-<body>
-    <?php include('../html/header.html') ?>
-    <main class="container">
-        <div class="border border-black rounded-top-3 rounded-bottom-5" id="section">
-            <a href="./index.php#dpn" class="back"><i class="fa-solid fa-arrow-rotate-left p-2 text-black"></i></a>
-            <h2 class="text-white rounded-top-3 rounded-bottom-4" id="subHeading">ADMISSIONS GUIDELINES: Qualifications</h2>
-            <div id="qcian-details" class="p-5 rounded-bottom-5">
-                <h3>BACHELOR OF SCIENCE IN ACCOUNTANCY (BSA)</h3>
+';
+$backLink = "./index.php#dpn";
+$dynamicContent = '
+    <h3>BACHELOR OF SCIENCE IN ACCOUNTANCY (BSA)</h3>
                 <div class="row row-cols-2 p-3 my-4">
                     <div class="col text-center fw-bold border-end border-black border-1">
                         <h4>IF SHS GRADUATE</h3>
@@ -112,12 +119,6 @@
                         2. Must have a general weighted average not lower than 90% in QCU College Admission Test.<br>
                         3. Must pass the interview and/or examination administered by the Dean (CPA) or Program Chair
                         who will recommend for admission.</div>
-                </div>
-            </div>
-        </div>
-    </main>
-    <?php include('../html/footer.html') ?>
-    <?php include('../html/script.html') ?>
-</body>
+';
 
-</html>
+include('./faq_template.php');
