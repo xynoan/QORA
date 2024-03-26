@@ -17,8 +17,8 @@
 
         section:first-child {
             background-image: url(../images/QORA\ -\ HOMEPAGE.png), url(../images/campus.JPG);
-            background-position: 0% 150%, 0% 0%;
-            background-size: 1000px 600px, 1400px 1000px;
+            background-position: 0% 150%, 0% 10%;
+            background-size: 1200px 600px, 1400px 1000px;
             background-repeat: no-repeat;
         }
 

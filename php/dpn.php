@@ -11,7 +11,7 @@
             margin-top: 150px;
         }
 
-        h2#subHeading {
+        h1#subHeading {
             background-color: var(--main-color);
             margin-bottom: 0;
             padding: 15px 15px 15px 40px;
@@ -32,7 +32,7 @@
     <?php include('../html/header.html') ?>
     <main class="container">
         <div class="border border-black rounded-top-3 rounded-bottom-5" id="section">
-            <h2 class="text-white rounded-top-3" id="subHeading">DATA PRIVACY NOTICE</h2>
+            <h1 class="fs-2 text-white rounded-top-3 rounded-bottom-4" id="subHeading">DATA PRIVACY NOTICE</h1>
             <p id="qcian-details" class="p-5 rounded-bottom-5">A student desiring to enroll in Quezon City University
                 has to comply with the following
                 Admission

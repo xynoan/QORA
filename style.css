@@ -131,7 +131,7 @@ hr {
 
 .submenu {
   width: 30% !important;
-  top: 215px;
+  top: 265px;
 }
 
 .submenu>hr {
@@ -145,12 +145,16 @@ hr {
 }
 
 .submenu3 li {
-  height: 15px;
+  height: 10px;
 }
 
 .submenu3,
 .submenu5 {
-  top: 140px;
+  top: 200px;
+}
+
+.submenu4 {
+  top: 340px;
 }
 
 .submenu6,
@@ -177,18 +181,14 @@ hr {
   top: 310px;
 }
 
-.submenu4 {
-  top: 290px;
-}
-
 /* end of hamburger */
 
 /* navbar */
 nav {
   background-color: white;
   background-image: url(./images/QORA\ -\ BANNER.png);
-  background-size: 700px 120px;
-  background-position: 50% -350%;
+  background-size: 1400px 70px;
+  background-position: 50% 0%;
   background-repeat: no-repeat;
 }
 
