@@ -13,11 +13,31 @@ $customStyle = '
 
         #qcian-details {
             background-color: white;
+            height: 60vh;
             margin-bottom: 0;
+            overflow-y: auto;
         }
-
+        
         div#section {
             margin-bottom: 2rem;
+            overflow: hidden;
+        }
+
+        #qcian-details::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            background-color: #F5F5F5;
+        }
+        
+        #qcian-details::-webkit-scrollbar {
+            width: 5px;
+            background-color: #F5F5F5;
+        }
+        
+        #qcian-details::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+            background-color: #555;
         }
 
         .fa-arrow-rotate-left {
