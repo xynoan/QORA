@@ -16,8 +16,10 @@
         }
 
         section:first-child {
-            background-image: url(../images/Backround-Image.png);
-            background-size: 1500px 700px;
+            background-image: url(../images/QORA\ -\ HOMEPAGE.png), url(../images/campus.JPG);
+            background-position: 0% 150%, 0% 0%;
+            background-size: 1000px 600px, 1400px 1000px;
+            background-repeat: no-repeat;
         }
 
         section:first-child>div {

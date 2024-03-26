@@ -186,6 +186,10 @@ hr {
 /* navbar */
 nav {
   background-color: white;
+  background-image: url(./images/QORA\ -\ BANNER.png);
+  background-size: 700px 120px;
+  background-position: 50% -350%;
+  background-repeat: no-repeat;
 }
 
 .nav_signin {
