@@ -29,6 +29,11 @@ hr {
   z-index: 1010;
 }
 
+.hamburger:hover {
+  transition: opacity 0.5s;
+  opacity: 0.5;
+}
+
 .bar1,
 .bar2,
 .bar3 {
@@ -202,6 +207,15 @@ nav {
   animation: shadows 1.5s infinite;
 }
 
+.nav_signin:hover {
+  text-decoration: underline;
+}
+
+img.qora_image:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
 .border-primary {
   border-color: #A08048 !important;
 }
@@ -227,6 +241,10 @@ h2 {
 
 .footer {
   background-color: var(--main-color);
+}
+
+footer a:hover {
+  text-decoration: underline !important;
 }
 
 .address,

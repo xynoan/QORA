@@ -34,6 +34,13 @@
             width: 35%;
         }
 
+        .first_half>.nav_buttons:hover, 
+        .register>.register_anchor:hover,
+        .login_btn:hover {
+            background-color: black;
+            transition: background-color 0.5s;
+        }
+
         .first_half>.nav_buttons,
         .register>.header,
         .login>.header,
