@@ -96,7 +96,7 @@
                 <h2 class="fw-bold py-4 fs-1" style="color: var(--brown);">Hello, Future QCian!</h2>
                 <div class="d-flex gap-4 flex-wrap">
                     <div class="first_half">
-                        <a href="./dpn.php" id="dpn" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Data Privacy Notice</a>
+                        <a href="./be_a_qcian/dpn.php" id="dpn" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Data Privacy Notice</a>
                         <a href="./gap.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">General Admission Policy</a>
                         <a href="./sdc.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Selection for a degree program and campus</a>
                         <a href="./far.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Freshmen admission requirements</a>
