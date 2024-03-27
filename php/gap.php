@@ -13,7 +13,6 @@ $customStyle = '
 
         #qcian-details {
             background-color: white;
-            height: 60vh;
             margin-bottom: 0;
             overflow-y: auto;
         }
