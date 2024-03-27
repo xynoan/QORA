@@ -7,6 +7,11 @@
     <?php include('../html/link.html') ?>
     <title>Quezon City University - <?php echo $pageTitle; ?></title>
     <style>
+        .fa-arrow-rotate-left:hover {
+            transition: background-color 0.5s, color 0.5s;
+            background-color: black;
+            color: white !important;
+        }
         <?php echo $customStyle; ?>
     </style>
 </head>
