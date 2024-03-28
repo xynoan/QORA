@@ -16,6 +16,11 @@
             color: white !important;
         }
 
+        h1#subHeading {
+            background-color: var(--main-color);
+            margin-bottom: 0;
+            padding: 15px 15px 15px 40px;
+        }
         <?php echo $customStyle; ?>
     </style>
 </head>
@@ -123,11 +128,11 @@
                             <li class="has-submenu4"><a href="#" class="fs-3">Campus
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i></span></a>
                                 <ul class="submenu4">
-                                    <li><a href="#" class="fs-4 text-uppercase">san bartolome campus</a></li>
+                                    <li><a href="./sb.php" class="fs-4 text-uppercase">san bartolome campus</a></li>
                                     <hr>
-                                    <li><a href="#" class="fs-4 text-uppercase">batasan campus</a></li>
+                                    <li><a href="./ba.php" class="fs-4 text-uppercase">batasan campus</a></li>
                                     <hr>
-                                    <li><a href="#" class="fs-4 text-uppercase">san francisco campus</a></li>
+                                    <li><a href="./sf.php" class="fs-4 text-uppercase">san francisco campus</a></li>
                                 </ul>
                             </li>
                             <hr>
@@ -187,7 +192,7 @@
     <main class="container">
         <div class="border border-black rounded-top-3 rounded-bottom-5" id="section">
             <a href="<?php echo $backLink; ?>" class="back"><i class="fa-solid fa-arrow-rotate-left p-2 text-black"></i></a>
-            <h2 class="text-white rounded-top-3 rounded-bottom-4 <?php echo $customHeadingStyle; ?>" id="subHeading"><?php echo $pageTitle; ?></h2>
+            <h1 class="text-white fs-2 rounded-top-3 rounded-bottom-4 <?php echo $customHeadingStyle; ?>" id="subHeading"><?php echo $pageTitle; ?></h1>
             <div id="qcian-details" class="p-4 <?php echo $customDetailsStyle ?? "rounded-bottom-5"; ?>">
                 <?php echo $dynamicContent; ?>
             </div>
@@ -208,12 +213,12 @@
                     <a href="./agq.php" class="text-decoration-none text-white">Admissions Guidelines: Qualification</a><br>
                     <a href="./pc.php" class="text-decoration-none text-white">Program Curriculum</a><br>
                     <a href="./gs.php" class="text-decoration-none text-white">Grading System</a></p>
-                <h2><a href="#" class="text-decoration-none text-white">Programs Offered</a></h2>
+                <h2><a href="./po.php" class="text-decoration-none text-white">Programs Offered</a></h2>
                 <h2>Campus</h2>
-                <p><a href="#" class="text-decoration-none text-white">San Bartolome Campus</a><br>
-                    <a href="#" class="text-decoration-none text-white">Batasan Campus</a><br>
-                    <a href="#" class="text-decoration-none text-white">San Francisco</a></p>
-                <h2><a href="#" class="text-decoration-none text-white">Contacts</a></h2>
+                <p><a href="./sb.php" class="text-decoration-none text-white">San Bartolome Campus</a><br>
+                    <a href="./ba.php" class="text-decoration-none text-white">Batasan Campus</a><br>
+                    <a href="./sf.php" class="text-decoration-none text-white">San Francisco</a></p>
+                <h2><a href="./contacts.php" class="text-decoration-none text-white">Contacts</a></h2>
                 <h2>QORA</h2>
                 <p><a href="../signin.php" class="text-decoration-none text-white">Sign In</a></p>
             </div>

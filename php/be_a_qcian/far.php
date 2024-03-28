@@ -5,12 +5,6 @@ $customStyle = '
             margin-top: 150px;
         }
 
-        h2#subHeading {
-            background-color: var(--main-color);
-            margin-bottom: 0;
-            padding: 15px 15px 15px 40px;
-        }
-
         #qcian-details {
             background-color: white;
             height: 60vh;
@@ -52,7 +46,7 @@ $customStyle = '
             left: 35px;
         }
 ';
-$backLink = "./index.php#navigation_links";
+$backLink = "../index.php#navigation_links";
 $dynamicContent = '
     <p>Choose if you are Graduating Senior High School Student,
                     a SHS Graduate, High School Graduate. ALS Passers applicants can now register without F138 / REPORT

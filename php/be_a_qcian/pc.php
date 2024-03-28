@@ -7,12 +7,6 @@ $customStyle = '
             margin-top: 150px;
         }
 
-        h2#subHeading {
-            background-color: var(--main-color);
-            margin-bottom: 0;
-            padding: 15px 15px 15px 40px;
-        }
-
         #qcian-details {
             background-color: white;
             height: 100vh;
@@ -52,9 +46,9 @@ $customStyle = '
             left: 35px;
         }
 ';
-$backLink = "./index.php#dpn";
+$backLink = "../index.php#dpn";
 $dynamicContent = '
-     <embed src="../COURSE_CURRICULUM.pdf" width="1010" height="590" 
+     <embed src="../../COURSE_CURRICULUM.pdf" width="1010" height="590" 
  type="application/pdf">
 ';
 

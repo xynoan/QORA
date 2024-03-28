@@ -5,12 +5,6 @@ $customStyle = '
             margin-top: 150px;
         }
 
-        h2#subHeading {
-            background-color: var(--main-color);
-            margin-bottom: 0;
-            padding: 15px 15px 15px 40px;
-        }
-
         #qcian-details {
             background-color: white;
             height: 60vh;
@@ -52,7 +46,7 @@ $customStyle = '
             left: 35px;
         }
 ';
-$backLink = "./index.php#dpn";
+$backLink = "../index.php#dpn";
 $dynamicContent = '
     <h3>1. FRESHMEN</h3>
                 <p>

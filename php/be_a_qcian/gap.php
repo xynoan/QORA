@@ -5,12 +5,6 @@ $customStyle = '
             margin-top: 150px;
         }
 
-        h2#subHeading {
-            background-color: var(--main-color);
-            margin-bottom: 0;
-            padding: 15px 15px 15px 40px;
-        }
-
         #qcian-details {
             background-color: white;
             margin-bottom: 0;
@@ -51,7 +45,7 @@ $customStyle = '
             left: 35px;
         }
 ';
-$backLink = "./index.php#navigation_links";
+$backLink = "../index.php#navigation_links";
 $dynamicContent = '
     <p>A student desiring to enroll in Quezon City University
                 has to comply with the following

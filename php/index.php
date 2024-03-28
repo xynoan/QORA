@@ -97,14 +97,14 @@
                 <div class="d-flex gap-4 flex-wrap">
                     <div class="first_half">
                         <a href="./be_a_qcian/dpn.php" id="dpn" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Data Privacy Notice</a>
-                        <a href="./gap.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">General Admission Policy</a>
-                        <a href="./sdc.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Selection for a degree program and campus</a>
-                        <a href="./far.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Freshmen admission requirements</a>
-                        <a href="./qcucat.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">QCUCAT procedure</a>
-                        <a href="./agc.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Admissions Guidelines: Classification</a>
-                        <a href="./agq.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Admissions Guidelines: Qualification</a>
-                        <a href="./pc.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Program Curriculum</a>
-                        <a href="./gs.php" class="text-uppercase nav_buttons text-white p-2 text-decoration-none">Grading System</a>
+                        <a href="./be_a_qcian/gap.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">General Admission Policy</a>
+                        <a href="./be_a_qcian/sdc.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Selection for a degree program and campus</a>
+                        <a href="./be_a_qcian/far.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Freshmen admission requirements</a>
+                        <a href="./be_a_qcian/qcucat.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">QCUCAT procedure</a>
+                        <a href="./be_a_qcian/agc.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Admissions Guidelines: Classification</a>
+                        <a href="./be_a_qcian/agq.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Admissions Guidelines: Qualification</a>
+                        <a href="./be_a_qcian/pc.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Program Curriculum</a>
+                        <a href="./be_a_qcian/gs.php" class="text-uppercase nav_buttons text-white p-2 text-decoration-none">Grading System</a>
                     </div>
                     <div class="second_half">
                         <div class="register mb-2">

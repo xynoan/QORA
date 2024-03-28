@@ -5,12 +5,6 @@ main {
     margin-top: 150px;
 }
 
-h2#subHeading {
-    background-color: var(--main-color);
-    margin-bottom: 0;
-    padding: 15px 15px 15px 40px;
-}
-
 #qcian-details {
     background-color: white;
     height: 60vh;
@@ -52,7 +46,7 @@ div#section {
     background-color: #555;
 }
 ';
-$backLink = "./index.php#navigation_links";
+$backLink = "../index.php#navigation_links";
 $customHeadingStyle = "text-uppercase";
 $dynamicContent = '
 <h3>PART 1. POLICY </h3>
