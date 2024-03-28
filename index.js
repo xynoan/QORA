@@ -32,3 +32,10 @@ for (let i = 0; i < inputs.length; i++) {
 // footer
 let date = new Date().getFullYear();
 document.getElementById("year").innerHTML = date;
+
+// form
+let previousButton = document.getElementById("previousButton");
+
+previousButton.addEventListener("click", () => {
+    window.history.back();
+});
