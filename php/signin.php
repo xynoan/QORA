@@ -21,6 +21,11 @@
             background-color: var(--main-color);
             width: 100%;
         }
+
+        #signin:hover {
+            background-color: black;
+            transition: background-color 0.5s;
+        }
     </style>
 </head>
 

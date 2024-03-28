@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include('../html/link.html') ?>
-    <title>Quezon City University - Forgot Password</title>
+    <title>Quezon City University - Success!</title>
     <style>
         #main-container {
             margin-top: 175px;
@@ -34,12 +34,10 @@
     <?php include('../html/header.html'); ?>
     <div class="container d-flex justify-content-center align-items-center" id="main-container">
         <div id="content-form" class="p-5">
-            <h1 class="text-center mb-3">Forgot Password</h1>
-            <p>Enter your email for the verification process,
-                we will send 6 digits code to your email.</p>
-            <form action="./otp.php" method="post">
-                <input class="d-block form-control mb-3" type="text" name="" id="" placeholder="Email">
-                <button id="signin" class="btn d-block mb-3 submit_button text-white" type="submit">Continue</button>
+            <h1 class="text-center mb-3 text-success">Success!</h1>
+            <p class="text-center">Your password has been reset.</p>
+            <form action="./signin.php" method="post">
+                <button id="signin" class="btn d-block submit_button text-white text-uppercase" type="submit">Go back to login page</button>
             </form>
         </div>
     </div>

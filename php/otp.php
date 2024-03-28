@@ -23,6 +23,11 @@
             width: 100%;
         }
 
+        #signin:hover {
+            background-color: black;
+            transition: background-color 0.5s;
+        }
+
         .otp_not_received {
             font-size: 15px;
         }
