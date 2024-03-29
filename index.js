@@ -36,6 +36,17 @@ document.getElementById("year").innerHTML = date;
 // form
 let previousButton = document.getElementById("previousButton");
 
-previousButton.addEventListener("click", () => {
-    window.history.back();
-});
+(async function () {
+    previousButton.addEventListener("click", () => {
+        window.history.back();
+    });
+})();
+
+// submit image
+const actualBtn = document.getElementById('actual-btn');
+
+const fileChosen = document.getElementById('file-chosen');
+
+actualBtn.addEventListener('change', function () {
+    fileChosen.textContent = this.files[0].name
+})
