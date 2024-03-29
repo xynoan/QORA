@@ -7,6 +7,12 @@ function toggleMenu() {
     navMenu.classList.toggle('active');
 }
 
+function toggleProgram() {
+    console.log("yahallo")
+    let college = document.getElementById("CCS");
+    college.classList.toggle('active');
+}
+
 // OTP
 const inputs = document.querySelectorAll("#otp > *[id]");
 for (let i = 0; i < inputs.length; i++) {
@@ -33,20 +39,11 @@ for (let i = 0; i < inputs.length; i++) {
 let date = new Date().getFullYear();
 document.getElementById("year").innerHTML = date;
 
-// form
-let previousButton = document.getElementById("previousButton");
-
-(async function () {
-    previousButton.addEventListener("click", () => {
-        window.history.back();
-    });
-})();
-
 // submit image
 const actualBtn = document.getElementById('actual-btn');
 
 const fileChosen = document.getElementById('file-chosen');
 
-actualBtn.addEventListener('change', function () {
+actualBtn.addEventListener('change', function() {
     fileChosen.textContent = this.files[0].name
 })

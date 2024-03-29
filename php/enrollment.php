@@ -7,6 +7,10 @@
     <?php include('../html/link.html') ?>
     <title>Quezon City University - Enrollment</title>
     <style>
+        hr.divider {
+            width: 100%;
+        }
+
         #main-container {
             margin-top: 170px;
             margin-bottom: 50px;
@@ -56,7 +60,7 @@
                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 17%"></div>
             </div>
             <h1 class="mt-3">Student Enlistment Form</h1>
-            <hr>
+            <hr class="divider">
             <form action="./year.php" method="post" class="d-flex flex-column align-items-center justify-content-center gap-3">
                 <div class="square border border-3 border-grey d-flex flex-column justify-content-center align-items-center">
                     <input type="file" id="actual-btn" hidden />
