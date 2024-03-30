@@ -36,6 +36,16 @@
             transition: opacity 0.5s;
         }
 
+        .next {
+            background-color: var(--main-color);
+            width: 15%;
+        }
+
+        .next:hover {
+            background-color: black;
+            transition: background-color 0.5s;
+        }
+
         #submitImage {
             background-color: var(--main-color);
             width: 150px;
@@ -56,17 +66,48 @@
                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 68%"></div>
             </div>
             <h1 class="mt-3">Student Enlistment Form</h1>
-            <hr>
-            <form action="./year.php" method="post" class="d-flex flex-column align-items-center justify-content-center gap-3">
-                <div class="square border border-3 border-grey d-flex flex-column justify-content-center align-items-center">
-                    <input type="file" id="actual-btn" hidden />
-                    <label for="actual-btn"><i class="fa-solid fa-cloud-arrow-up" style="opacity: 0.5; font-size: 100px;"></i></label>
-                    <span style="color: grey; width: 150px;" class="text-center mt-2"><b>Click to upload</b> or
-                        drag and drop</span>
-                    <span id="file-chosen">No file chosen</span>
+            <hr style="width: 100%;">
+            <form action="./input_review.php" method="post">
+                <div class="container text-center">
+                    <div class="row row-cols-5">
+                        <div class="col">
+                            <p class="fw-bold">Subject/Courses</p>
+                        </div>
+                        <div class="col">
+                            <p class="fw-bold">Remarks</p>
+                        </div>
+                        <div class="col">
+                            <p class="fw-bold">No. of Units</p>
+                        </div>
+                        <div class="col">
+                            <p class="fw-bold">Grade</p>
+                        </div>
+                        <div class="col"></div>
+                        <div class="col"><input type="text" class="form-control"></div>
+                        <div class="col"><input type="text" class="form-control"></div>
+                        <div class="col"><input type="text" class="form-control"></div>
+                        <div class="col"><input type="text" class="form-control"></div>
+                        <div class="col"><button type="button" class="btn btn-success">Add</button></div>
+                    </div>
                 </div>
-                <a href="#" class="text-black"><label for="actual-btn" class="text-decoration-underline" style="cursor: pointer;">Change</label></a>
-                <button type="submit" class="btn text-white rounded-4" id="submitImage">SUBMIT</button>
+                <div class="container text-center mt-4" style="width: 35%;">
+                    <div class="row row-cols-2">
+                        <div class="col mb-3">
+                            <p class="fw-bold">Total No. of Units</p>
+                        </div>
+                        <div class="col"> <input type="text" name="" id="" class="form-control">
+                        </div>
+                        <div class="col">
+                            <p class="fw-bold">GWA</p>
+                        </div>
+                        <div class="col"> <input type="text" name="" id="" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between mt-4">
+                    <button class="btn next text-white" id="previousButton" type="button"><i class="fa-solid fa-chevron-left"></i> Previous</button>
+                    <button class="btn next text-white" type="submit">Next <i class="fa-solid fa-chevron-right"></i></button>
+                </div>
             </form>
         </div>
     </div>
