@@ -41,9 +41,30 @@ document.getElementById("year").innerHTML = date;
 
 // submit image
 const actualBtn = document.getElementById('actual-btn');
+const imageContainer = document.getElementById('image-container');
 
-const fileChosen = document.getElementById('file-chosen');
+actualBtn.addEventListener('change', function () {
+    const file = this.files[0];
 
-actualBtn.addEventListener('change', function() {
-    fileChosen.textContent = this.files[0].name
-})
+    if (file) {
+        const reader = new FileReader();
+        reader.onload = function (event) {
+            const imageUrl = event.target.result;
+            const imgElement = document.createElement('img');
+            imgElement.src = imageUrl;
+            imgElement.alt = 'Selected Image';
+            imgElement.style.borderRadius = "inherit";
+            imgElement.style.maxWidth = '100%'; // Ensure the image fits within the container
+            const label = imageContainer.querySelector('label');
+            const span = imageContainer.querySelector('span');
+            if (label) label.remove();
+            if (span) span.remove();
+            const existingImages = imageContainer.querySelectorAll('img');
+            existingImages.forEach(img => img.remove());
+            imageContainer.appendChild(imgElement);
+        };
+        reader.readAsDataURL(file);
+    } else {
+        console.log('No file selected');
+    }
+});
