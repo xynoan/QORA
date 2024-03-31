@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include('../html/link.html'); ?>
+    <?php 
+    $styleLink = "../style.css";
+    $shortcutIconLink = "../images/logo-white.png";
+    include('./shared/link.php'); 
+    ?>
     <style>
         h1 {
             width: 60%;
