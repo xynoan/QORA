@@ -21,6 +21,11 @@
             width: 821px;
         }
 
+        .modal-body {
+            overflow-y: auto;
+            height: 50vh;
+        }
+
         .square {
             height: 250px;
             width: 250px;
@@ -166,7 +171,27 @@
                             </div>
                             <div class="modal-body">
                                 <span class="fw-bold">Please read the following carefully and indicate your consent by checking the box provided:</span><br><br>
-                                I, [Full Name], hereby consent to participate in the student application process for Quezon City University Online Registration Appointment (QORA). I understand that by providing my electronic signature below, I am agreeing to the terms and conditions outlined herein.
+                                I, <b>[Full Name]</b>, hereby consent to participate in the student application process for <b>Quezon City University Online Registration Appointment (QORA)</b>. I understand that by providing my electronic signature below, I am agreeing to the terms and conditions outlined herein.
+                                <br><br>
+                                <b>1. Purpose:</b> I understand that the purpose of this application is to apply for admission/enrollment in Quezon City University.
+                                <b>2. Information Collection:</b> I acknowledge that <b>QORA</b> will collect personal information from me, including but not limited to my name, contact information, educational background, and other pertinent details required for the application process.<br><br>
+
+                                <b>3. Use of Information:</b> I understand that the information collected will be used solely to evaluate my application for admission/enrollment.<br><br>
+
+                                <b>4. Confidentiality:</b> I acknowledge that all information provided in this application will be treated confidentially and by applicable privacy laws and regulations.<br><br>
+
+                                <b>5. Third-Party Access:</b> I understand that <b>Quezon City University Online Registration Appointment (QORA)</b> may share my information with third parties involved in the application evaluation process, such as admissions committees, faculty members, and relevant administrative staff.<br><br>
+
+                                <b>6. Electronic Communication:</b> I consent to receive electronic communications from QORA regarding my application status, updates, and other relevant information.<br><br>
+
+                                <b>7. Signature:</b> By checking the box below, I certify that all information provided in this application is true and accurate to the best of my knowledge.<br><br>
+
+
+                                <p class="text-center m-0"><b>I consent to the terms outlined above.</b></p><br>
+
+                                <p class="text-center m-0"><b>Date: [ ]</b></p><br>
+
+                                Please note that by providing your electronic signature, you are legally bound by the terms and conditions outlined in this consent form. If you have any questions or concerns regarding this form, please contact Quezon City University Registration Appointment for clarification before proceeding.
                             </div>
                             <div class="modal-footer d-flex flex-column align-items-end">
                                 <button type="submit" class="btn btn-primary next" style="width: 50%; border: 2px solid var(--main-color);">Agree and Submit</button>
