@@ -8,7 +8,6 @@ function toggleMenu() {
 }
 
 function toggleProgram() {
-    console.log("yahallo")
     let college = document.getElementById("CCS");
     college.classList.toggle('active');
 }

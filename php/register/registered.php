@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include('../html/link.html') ?>
+    <?php
+    $styleLink = "../../style.css";
+    $shortcutIconLink = "../../images/logo-white.png";
+    include('../shared/link.php');
+    ?>
     <title>Quezon City University - Register</title>
     <style>
         hr.divider {
@@ -56,7 +60,13 @@
 </head>
 
 <body>
-    <?php include('../html/header.html'); ?>
+    <?php
+    $beAQcianPath = "../be_a_qcian/";
+    $homePagePath = "../";
+    $imageLink = "../../images/";
+    $loginPath = "../login/";
+    include('../shared/header.php');
+    ?>
     <div class="container" id="main-container">
         <div id="content-form" class="p-5 mt-3 d-flex justify-content-center flex-column align-items-center gap-4">
             <div class="yay p-4 rounded-5 d-flex justify-content-center text-center">
@@ -66,11 +76,18 @@
                     <h2>You are successfully registered. Good luck on your application :)</h2>
                 </div>
             </div>
-            <p class="mb-0 mt-2"><a href="./index.php" class="text-decoration-none back_to_homepage text-white py-3 px-5 rounded-4">Back to Homepage</a></p>
+            <p class="mb-0 mt-2"><a href="../index.php" class="text-decoration-none back_to_homepage text-white py-3 px-5 rounded-4">Back to Homepage</a></p>
         </div>
     </div>
-    <?php include('../html/footer.html'); ?>
-    <?php include('../html/script.html') ?>
+    <?php
+    $beAQcianPath = "../be_a_qcian/";
+    $loginPath = "../login/";
+    include('../shared/footer.php');
+    ?>
+    <?php
+    $scriptPath = "../../";
+    include('../shared/script.php');
+    ?>
 </body>
 
 </html>

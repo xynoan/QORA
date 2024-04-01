@@ -3,23 +3,23 @@
         <div class="container d-flex">
             <div class="navigation">
                 <h2>Be a QCIAN</h2>
-                <p><a href="../php/be_a_qcian/dpn.php" class="text-decoration-none text-white footer_link">Data Privacy Notice</a> <br>
-                    <a href="../php/be_a_qcian/gap.php" class="text-decoration-none text-white">General Admission Policy</a><br>
-                    <a href="../php/be_a_qcian/sdc.php" class="text-decoration-none text-white">Selection for a degree program and campus</a><br>
-                    <a href="../php/be_a_qcian/far.php" class="text-decoration-none text-white">Freshmen admission requirements</a><br>
-                    <a href="../php/be_a_qcian/qcucat.php" class="text-decoration-none text-white">QCUCAT procedure</a><br>
-                    <a href="../php/be_a_qcian/agc.php" class="text-decoration-none text-white">Admissions Guidelines: Classification</a><br>
-                    <a href="../php/be_a_qcian/agq.php" class="text-decoration-none text-white">Admissions Guidelines: Qualification</a><br>
-                    <a href="../php/be_a_qcian/pc.php" class="text-decoration-none text-white">Program Curriculum</a><br>
-                    <a href="../php/be_a_qcian/gs.php" class="text-decoration-none text-white">Grading System</a></p>
-                <h2><a href="../php/be_a_qcian/po.php" id="programs_offered" class="text-decoration-none text-white">Programs Offered</a></h2>
+                <p><a href="<?php echo $beAQcianPath ?>dpn.php" class="text-decoration-none text-white footer_link">Data Privacy Notice</a> <br>
+                    <a href="<?php echo $beAQcianPath ?>gap.php" class="text-decoration-none text-white">General Admission Policy</a><br>
+                    <a href="<?php echo $beAQcianPath ?>sdc.php" class="text-decoration-none text-white">Selection for a degree program and campus</a><br>
+                    <a href="<?php echo $beAQcianPath ?>far.php" class="text-decoration-none text-white">Freshmen admission requirements</a><br>
+                    <a href="<?php echo $beAQcianPath ?>qcucat.php" class="text-decoration-none text-white">QCUCAT procedure</a><br>
+                    <a href="<?php echo $beAQcianPath ?>agc.php" class="text-decoration-none text-white">Admissions Guidelines: Classification</a><br>
+                    <a href="<?php echo $beAQcianPath ?>agq.php" class="text-decoration-none text-white">Admissions Guidelines: Qualification</a><br>
+                    <a href="<?php echo $beAQcianPath ?>pc.php" class="text-decoration-none text-white">Program Curriculum</a><br>
+                    <a href="<?php echo $beAQcianPath ?>gs.php" class="text-decoration-none text-white">Grading System</a></p>
+                <h2><a href="<?php echo $beAQcianPath ?>po.php" id="programs_offered" class="text-decoration-none text-white">Programs Offered</a></h2>
                 <h2>Campus</h2>
-                <p><a href="../php/be_a_qcian/sb.php" id="sb" class="text-decoration-none text-white">San Bartolome Campus</a><br>
-                    <a href="../php/be_a_qcian/ba.php" id="ba" class="text-decoration-none text-white">Batasan Campus</a><br>
-                    <a href="../php/be_a_qcian/sf.php" id="sf" class="text-decoration-none text-white">San Francisco</a></p>
-                <h2><a href="../php/be_a_qcian/contacts.php" id="contacts" class="text-decoration-none text-white">Contacts</a></h2>
+                <p><a href="<?php echo $beAQcianPath ?>sb.php" id="sb" class="text-decoration-none text-white">San Bartolome Campus</a><br>
+                    <a href="<?php echo $beAQcianPath ?>ba.php" id="ba" class="text-decoration-none text-white">Batasan Campus</a><br>
+                    <a href="<?php echo $beAQcianPath ?>sf.php" id="sf" class="text-decoration-none text-white">San Francisco</a></p>
+                <h2><a href="<?php echo $beAQcianPath ?>contacts.php" id="contacts" class="text-decoration-none text-white">Contacts</a></h2>
                 <h2>QORA</h2>
-                <p><a href="../php/signin.php" class="text-decoration-none text-white">Sign In</a></p>
+                <p><a href="<?php echo $loginPath ?>signin.php" class="text-decoration-none text-white">Sign In</a></p>
             </div>
             <div class="address">
                 <h2 class="fw-bold">Address</h2>

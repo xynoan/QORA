@@ -7,7 +7,7 @@
                 <div class="bar3"></div>
             </div>
             <div class="nav-menu">
-                <p class="text-white text-center fs-1 qora_paragraph m-0"><img src="../images/logo-white.png" alt="QORA"
+                <p class="text-white text-center fs-1 qora_paragraph m-0"><img src="<?php echo $imageLink ?>logo-white.png" alt="QORA"
                         height="200px"></p>
                 <div class="container">
                     <ul class="p-0 d-inline-block">
@@ -16,31 +16,31 @@
                                         class="fa-solid fa-chevron-right"></i><i
                                         class="fa-solid fa-chevron-right"></i></span></a>
                             <ul class="submenu3">
-                                <li><a href="../php/be_a_qcian/dpn.php" class="fs-5 text-uppercase">Data Privacy Notice</a></li>
+                                <li><a href="<?php echo $beAQcianPath ?>dpn.php" class="fs-5 text-uppercase">Data Privacy Notice</a></li>
                                 <hr>
-                                <li><a href="../php/be_a_qcian/gap.php" class="fs-5 text-uppercase">General Admission Policy</a>
+                                <li><a href="<?php echo $beAQcianPath ?>gap.php" class="fs-5 text-uppercase">General Admission Policy</a>
                                 </li>
                                 <hr>
-                                <li><a href="../php/be_a_qcian/sdc.php" class="fs-5 text-uppercase">Selection for a degree program
+                                <li><a href="<?php echo $beAQcianPath ?>sdc.php" class="fs-5 text-uppercase">Selection for a degree program
                                         and
                                         campus</a></li>
                                 <hr>
-                                <li><a href="../php/be_a_qcian/far.php" class="fs-5 text-uppercase">Freshmen admission
+                                <li><a href="<?php echo $beAQcianPath ?>far.php" class="fs-5 text-uppercase">Freshmen admission
                                         requirements</a></li>
                                 <hr>
-                                <li><a href="../php/be_a_qcian/qcucat.php" class="fs-5 text-uppercase">QCUCAT procedure</a></li>
+                                <li><a href="<?php echo $beAQcianPath ?>qcucat.php" class="fs-5 text-uppercase">QCUCAT procedure</a></li>
                                 <hr>
-                                <li><a href="../php/be_a_qcian/agc.php" class="fs-5 text-uppercase">Admissions Guidelines:
+                                <li><a href="<?php echo $beAQcianPath ?>agc.php" class="fs-5 text-uppercase">Admissions Guidelines:
                                         Classification</a>
                                 </li>
                                 <hr>
-                                <li><a href="../php/be_a_qcian/agq.php" class="fs-5 text-uppercase">Admissions Guidelines:
+                                <li><a href="<?php echo $beAQcianPath ?>agq.php" class="fs-5 text-uppercase">Admissions Guidelines:
                                         Qualification</a>
                                 </li>
                                 <hr>
-                                <li><a href="../php/be_a_qcian/pc.php" class="fs-5 text-uppercase">Program Curriculum</a></li>
+                                <li><a href="<?php echo $beAQcianPath ?>pc.php" class="fs-5 text-uppercase">Program Curriculum</a></li>
                                 <hr>
-                                <li><a href="../php/be_a_qcian/gs.php" class="fs-5 text-uppercase">Grading System</a></li>
+                                <li><a href="<?php echo $beAQcianPath ?>gs.php" class="fs-5 text-uppercase">Grading System</a></li>
                             </ul>
                         </li>
                         <hr>
@@ -111,11 +111,11 @@
                                         class="fa-solid fa-chevron-right"></i><i
                                         class="fa-solid fa-chevron-right"></i></span></a>
                             <ul class="submenu4">
-                                <li><a href="../php/be_a_qcian/sb.php" class="fs-4 text-uppercase">san bartolome campus</a></li>
+                                <li><a href="<?php echo $beAQcianPath ?>sb.php" class="fs-4 text-uppercase">san bartolome campus</a></li>
                                 <hr>
-                                <li><a href="../php/be_a_qcian/ba.php" class="fs-4 text-uppercase">batasan campus</a></li>
+                                <li><a href="<?php echo $beAQcianPath ?>ba.php" class="fs-4 text-uppercase">batasan campus</a></li>
                                 <hr>
-                                <li><a href="../php/be_a_qcian/sf.php" class="fs-4 text-uppercase">san francisco campus</a></li>
+                                <li><a href="<?php echo $beAQcianPath ?>sf.php" class="fs-4 text-uppercase">san francisco campus</a></li>
                             </ul>
                         </li>
                         <hr>
@@ -170,11 +170,11 @@
                     </ul>
                 </div>
             </div>
-            <a href="./index.php" class="text-decoration-none fw-bold fs-2" style="color: var(--main-color);"><img
-                    class="qora_image" src="../images/logo.png" alt="QORA" height="70px"></a>
+            <a href="<?php echo $homePagePath ?>index.php" class="text-decoration-none fw-bold fs-2" style="color: var(--main-color);"><img
+                    class="qora_image" src="<?php echo $imageLink ?>logo.png" alt="QORA" height="70px"></a>
         </div>
         <ul class="nav gap-3 fw-bold">
-            <li class="nav-item"><a href="./signin.php" class="nav-link px-2 text-white nav_signin">Sign in</a>
+            <li class="nav-item"><a href="<?php echo $loginPath ?>index.php" class="nav-link px-2 text-white nav_signin">Sign in</a>
             </li>
         </ul>
     </div>

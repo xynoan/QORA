@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include('../html/link.html') ?>
+    <?php
+    $styleLink = "../../style.css";
+    $shortcutIconLink = "../../images/logo-white.png";
+    include('../shared/link.php');
+    ?>
     <title>Quezon City University - Log in</title>
     <style>
         #main-container {
@@ -30,11 +34,17 @@
 </head>
 
 <body>
-    <?php include('../html/header.html'); ?>
+    <?php
+    $beAQcianPath = "../be_a_qcian/";
+    $homePagePath = "../";
+    $imageLink = "../../images/";
+    $loginPath = "./";
+    include('../shared/header.php');
+    ?>
     <div class="container d-flex justify-content-center align-items-center" id="main-container">
         <div id="content-form" class="p-5">
             <h1 class="text-center mb-3">Log in</h1>
-            <form action="./enrollment.php" method="post">
+            <form action="../student/enrollment.php" method="post">
                 <input class="d-block form-control mb-3" type="text" name="" id="" placeholder="Email">
                 <input class="d-block form-control mb-3" type="password" name="" id="" placeholder="Password">
                 <div class="mb-3">
@@ -48,8 +58,15 @@
             </form>
         </div>
     </div>
-    <?php include('../html/footer.html'); ?>
-    <?php include('../html/script.html') ?>
+    <?php
+    $beAQcianPath = "../be_a_qcian/";
+    $loginPath = "./";
+    include('../shared/footer.php');
+    ?>
+    <?php
+    $scriptPath = "../../";
+    include('../shared/script.php');
+    ?>
 </body>
 
 </html>

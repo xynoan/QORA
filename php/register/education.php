@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include('../html/link.html') ?>
+    <?php
+    $styleLink = "../../style.css";
+    $shortcutIconLink = "../../images/logo-white.png";
+    include('../shared/link.php');
+    ?>
     <title>Quezon City University - Register</title>
     <style>
         hr.divider {
@@ -42,7 +46,13 @@
 </head>
 
 <body>
-    <?php include('../html/header.html'); ?>
+    <?php
+    $beAQcianPath = "../be_a_qcian/";
+    $homePagePath = "../";
+    $imageLink = "../../images/";
+    $loginPath = "../login/";
+    include('../shared/header.php');
+    ?>
     <div class="container" id="main-container">
         <div id="content-form" class="p-5 mt-3">
             <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
@@ -215,8 +225,15 @@
             </form>
         </div>
     </div>
-    <?php include('../html/footer.html'); ?>
-    <?php include('../html/script.html') ?>
+    <?php
+    $beAQcianPath = "../be_a_qcian/";
+    $loginPath = "../login/";
+    include('../shared/footer.php');
+    ?>
+    <?php
+    $scriptPath = "../../";
+    include('../shared/script.php');
+    ?>
 </body>
 
 </html>

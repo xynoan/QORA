@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php 
+    <?php
     $styleLink = "../style.css";
     $shortcutIconLink = "../images/logo-white.png";
-    include('./shared/link.php'); 
+    include('./shared/link.php');
     ?>
     <style>
         h1 {
@@ -38,7 +38,7 @@
             width: 35%;
         }
 
-        .first_half>.nav_buttons:hover, 
+        .first_half>.nav_buttons:hover,
         .register>.register_anchor:hover,
         .login_btn:hover {
             background-color: black;
@@ -88,7 +88,13 @@
 </head>
 
 <body>
-    <?php include('../html/header.html'); ?>
+    <?php
+    $beAQcianPath = "./be_a_qcian/";
+    $homePagePath = "./";
+    $imageLink = "../images/";
+    $loginPath = "./login/";
+    include('./shared/header.php');
+    ?>
     <main>
         <section>
             <div class="container d-flex align-items-end justify-content-end">
@@ -114,11 +120,11 @@
                         <div class="register mb-2">
                             <p class="header text-white text-center p-2">NEW APPLICANT</p>
                             <p class="text-center">Do not have an account yet?</p>
-                            <a href="./register.php" class="d-block text-white text-decoration-none text-center register_anchor m-3 p-1 rounded-4">REGISTER</a>
+                            <a href="./register/index.php" class="d-block text-white text-decoration-none text-center register_anchor m-3 p-1 rounded-4">REGISTER</a>
                         </div>
                         <div class="login">
                             <p class="text-center text-white header p-2 m-0">LOG IN</p>
-                            <form action="./enrollment.php" class="p-4 d-flex flex-column">
+                            <form action="./student/enrollment.php" class="p-4 d-flex flex-column">
                                 <input class="form-control mb-2 email" type="email" name="" id="" placeholder="Email">
                                 <input class="form-control password" type="password" name="" id="" placeholder="Password">
                                 <div class="d-flex forgot_password gap-1 mt-3">
@@ -138,8 +144,15 @@
             </div>
         </section>
     </main>
-    <?php include('../html/footer.html'); ?>
-    <?php include('../html/script.html'); ?>
+    <?php
+    $beAQcianPath = "./be_a_qcian/";
+    $loginPath = "./login/";
+    include('./shared/footer.php');
+    ?>
+    <?php
+    $scriptPath = "../";
+    include('./shared/script.php');
+    ?>
 </body>
 
 </html>

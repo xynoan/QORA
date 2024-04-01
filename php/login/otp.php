@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include('../html/link.html') ?>
+    <?php
+    $styleLink = "../../style.css";
+    $shortcutIconLink = "../../images/logo-white.png";
+    include('../shared/link.php');
+    ?>
     <title>Quezon City University - OTP</title>
     <style>
         #main-container {
@@ -35,28 +39,41 @@
 </head>
 
 <body>
-    <?php include('../html/header.html'); ?>
+    <?php
+    $beAQcianPath = "../be_a_qcian/";
+    $homePagePath = "../";
+    $imageLink = "../../images/";
+    $loginPath = "./";
+    include('../shared/header.php');
+    ?>
     <div class="container d-flex justify-content-center align-items-center" id="main-container">
         <div id="content-form" class="p-5">
             <h1 class="fs-2 text-center mb-3">OTP Recovery Code</h1>
             <p>Enter the 6 digit verification code that was sent to your email.</p>
             <p class="fw-bold m-0">Enter 6-digit Recovery Code</p>
             <form action="./resetpw.php" method="post">
-                <div id="otp" class="inputs d-flex flex-row my-2"> 
-                    <input class="me-2 text-center form-control rounded" type="text" id="first" maxlength="1" /> 
-                    <input class="me-2 text-center form-control rounded" type="text" id="second" maxlength="1" /> 
-                    <input class="me-2 text-center form-control rounded" type="text" id="third" maxlength="1" /> 
-                    <input class="me-2 text-center form-control rounded" type="text" id="fourth" maxlength="1" /> 
-                    <input class="me-2 text-center form-control rounded" type="text" id="fifth" maxlength="1" /> 
-                    <input class="text-center form-control rounded" type="text" id="sixth" maxlength="1" /> 
+                <div id="otp" class="inputs d-flex flex-row my-2">
+                    <input class="me-2 text-center form-control rounded" type="text" id="first" maxlength="1" />
+                    <input class="me-2 text-center form-control rounded" type="text" id="second" maxlength="1" />
+                    <input class="me-2 text-center form-control rounded" type="text" id="third" maxlength="1" />
+                    <input class="me-2 text-center form-control rounded" type="text" id="fourth" maxlength="1" />
+                    <input class="me-2 text-center form-control rounded" type="text" id="fifth" maxlength="1" />
+                    <input class="text-center form-control rounded" type="text" id="sixth" maxlength="1" />
                 </div>
                 <button id="signin" class="btn d-block mb-3 submit_button text-white" type="submit">Submit</button>
                 <p class="otp_not_received m-0">OTP not received? <a href="#" class="text-black">Send Again</a></p>
             </form>
         </div>
     </div>
-    <?php include('../html/footer.html'); ?>
-    <?php include('../html/script.html') ?>
+    <?php
+    $beAQcianPath = "../be_a_qcian/";
+    $loginPath = "./";
+    include('../shared/footer.php');
+    ?>
+    <?php
+    $scriptPath = "../../";
+    include('../shared/script.php');
+    ?>
 </body>
 
 </html>
