@@ -62,7 +62,7 @@
     $homePagePath = "../";
     $imageLink = "../../images/";
     $loginPath = "../login/";
-    include('../shared/header.php');
+    include('../shared/account.php');
     ?>
     <div class="container" id="main-container">
         <div id="content-form" class="p-5 mt-3">

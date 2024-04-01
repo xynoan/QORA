@@ -19,7 +19,7 @@
                     <a href="<?php echo $beAQcianPath ?>sf.php" id="sf" class="text-decoration-none text-white">San Francisco</a></p>
                 <h2><a href="<?php echo $beAQcianPath ?>contacts.php" id="contacts" class="text-decoration-none text-white">Contacts</a></h2>
                 <h2>QORA</h2>
-                <p><a href="<?php echo $loginPath ?>signin.php" class="text-decoration-none text-white">Sign In</a></p>
+                <p><a href="<?php echo $loginPath ?>index.php" class="text-decoration-none text-white">Sign In</a></p>
             </div>
             <div class="address">
                 <h2 class="fw-bold">Address</h2>

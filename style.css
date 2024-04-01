@@ -260,6 +260,30 @@ img.qora_image:hover {
   }
 }
 
+#profileDiv {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10%);
+  border: 2px solid var(--main-color);
+  position: absolute;
+  right: 35px;
+  top: 75px;
+  height: 550px;
+  width: 300px;
+  background-color: white;
+}
+
+#profileDiv.active {
+  opacity: 1;
+  visibility: visible;
+  transition: transform 0.7s;
+  transform: translateY(0);
+}
+
+#add_new_account:hover, #logout:hover {
+  text-decoration: underline !important;
+}
+
 /* end of navbar */
 
 /* footer */

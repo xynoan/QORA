@@ -1,20 +1,24 @@
+// hamburger
+function toggleMenu() {
+    let hamburger = document.querySelector('.hamburger');
+    hamburger.classList.toggle('active');
+
+    let navMenu = document.querySelector('.nav-menu');
+    navMenu.classList.toggle('active');
+}
+
+function toggleProgram() {
+    let college = document.getElementById("CCS");
+    college.classList.toggle('active');
+}
+
+function toggleProfile() {
+    const popupDiv = document.getElementById('profileDiv');
+    popupDiv.classList.toggle('active');
+}
+
 (async () => {
-    // hamburger
-    function toggleMenu() {
-        let hamburger = document.querySelector('.hamburger');
-        hamburger.classList.toggle('active');
-
-        let navMenu = document.querySelector('.nav-menu');
-        navMenu.classList.toggle('active');
-    }
-
-    function toggleProgram() {
-        let college = document.getElementById("CCS");
-        college.classList.toggle('active');
-    }
-
     // form
-
     function addPreviousButtonListener() {
         let previousButton = document.getElementById("previousButton");
 
