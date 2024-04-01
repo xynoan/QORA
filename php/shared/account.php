@@ -176,7 +176,12 @@
                         <p style="font-size: 13px;" class="m-0">nathanielcarlo@gmail.com</p>
                     </div>
                 </div>
-                <p style="font-size: 13px;"><a href="<?php echo $loginPath ?>index.php" class="text-decoration-none text-black" id="add_new_account"><i class="fa-solid fa-plus" style="font-size: 30px; margin: 5px;"></i>Add another account</a></p>
+                <div class="d-flex">
+                    <a href="<?php echo $loginPath ?>index.php" class="text-black">
+                        <i class="fa-solid fa-plus ms-2" style="font-size: 30px; margin: 5px;"></i>
+                    </a>
+                    <p style="font-size: 13px;" class="mt-2 ms-3"><a href="<?php echo $loginPath ?>index.php" class="text-decoration-none text-black" id="add_new_account">Add another account</a></p>
+                </div>
             </div>
             <hr style="width: 100%;">
             <p class="text-center"><a href="#" class="text-decoration-none text-black" id="logout"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a></p>
