@@ -292,6 +292,12 @@ footer a:hover {
   margin-right: auto;
 }
 
+.submit_message:hover {
+  color: var(--main-color);
+  border-color: var(--main-color);
+  transition: all 0.5s;
+}
+
 .copyright {
   background-color: #A08048;
   margin-bottom: 0;

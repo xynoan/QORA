@@ -51,7 +51,7 @@
                     </div>
                     <textarea class="d-block form-control" name="" cols="30" rows="10"
                         placeholder="Compose Message..."></textarea>
-                    <button type="submit" class="btn p-3 fw-bold mt-2 d-block submit_message"><i
+                    <button type="submit" class="rounded-4 p-3 fw-bold mt-2 d-block submit_message"><i
                             class="fa-solid fa-envelope-open"></i> Send Message</button>
                 </form>
             </div>
