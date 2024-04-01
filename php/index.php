@@ -69,6 +69,22 @@
             border-radius: 18px;
         }
 
+        .next {
+            background-color: var(--main-color);
+            width: 15%;
+        }
+
+        .next:hover {
+            background-color: black;
+            transition: background-color 0.5s;
+        }
+
+        #cancel_application:hover {
+            background-color: var(--main-color) !important;
+            color: white !important;
+            transition: all 0.5s !important;
+        }
+
         .register>.header,
         .login>.header {
             border-radius: 10px 10px 10px 10px;
@@ -124,7 +140,7 @@
                         </div>
                         <div class="login">
                             <p class="text-center text-white header p-2 m-0">LOG IN</p>
-                            <form action="./student/enrollment.php" class="p-4 d-flex flex-column">
+                            <form action="./student/enrollment.php" class="p-4 d-flex flex-column" method="post">
                                 <input class="form-control mb-2 email" type="email" name="" placeholder="Email">
                                 <input class="form-control password" type="password" name="" placeholder="Password">
                                 <div class="d-flex forgot_password gap-1 mt-3">
@@ -132,10 +148,28 @@
                                         <div>
                                             <input class="me-1" type="checkbox" name="" id="remember"><label for="remember">Remember Me</label>
                                         </div>
-                                        <a href="#" class="text-black">Forgot Password?</a>
+                                        <a href="./login/forgot.php" class="text-black">Forgot Password?</a>
                                     </div>
                                 </div>
-                                <button class="btn login_btn text-white rounded-5 mt-3" type="submit">LOG IN</button>
+                                <button class="btn login_btn text-white rounded-5 mt-3" type="button" data-bs-toggle="modal" data-bs-target="#consent">LOG IN</button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="consent" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5 text-uppercase" id="exampleModalLabel">Login as</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                This modal is only for simulation and will be removed later.
+                                            </div>
+                                            <div class="modal-footer d-flex flex-column align-items-end">
+                                                <button type="submit" class="btn btn-primary next" style="width: 50%; border: 2px solid var(--main-color);">Login as Student</button>
+                                                <button id="cancel_application" type="button" class="fw-bold btn btn-secondary cancel_application" data-bs-dismiss="modal" style="width: 50%; border: 2px solid var(--main-color); background: white; color: var(--main-color);">Login as Registrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </form>
                         </div>
                     </div>

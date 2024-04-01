@@ -54,7 +54,7 @@
                 </div>
                 <button id="signin" class="btn d-block mb-3 submit_button text-white" type="submit">Log In</button>
                 <p>Don't Have An Account? <a href="./register.php" class="text-black">Register</a></p>
-                <p class="text-center">OR</p>
+                <!-- <p class="text-center">OR</p> -->
             </form>
         </div>
     </div>
