@@ -41,12 +41,12 @@
                 <form action="#" method="post">
                     <div class="row row-cols-2 row-gap-1 mb-1 form-grid">
                         <div class="input-group p-0">
-                            <input class="form-control" type="text" name="" id="" placeholder="Name (LN, FN, MI.)">
-                            <input class="form-control" type="email" name="" id="" placeholder="E-mail Address">
+                            <input class="form-control" type="text" name="" placeholder="Name (LN, FN, MI.)">
+                            <input class="form-control" type="email" name="" placeholder="E-mail Address">
                         </div>
                         <div class="input-group p-0">
-                            <input class="form-control" type="number" name="" id="" placeholder="Year Level">
-                            <input class="form-control" type="text" name="" id="" placeholder="Course/Program">
+                            <input class="form-control" type="number" name="" placeholder="Year Level">
+                            <input class="form-control" type="text" name="" placeholder="Course/Program">
                         </div>
                     </div>
                     <textarea class="d-block form-control" name="" cols="30" rows="10"

@@ -125,8 +125,8 @@
                         <div class="login">
                             <p class="text-center text-white header p-2 m-0">LOG IN</p>
                             <form action="./student/enrollment.php" class="p-4 d-flex flex-column">
-                                <input class="form-control mb-2 email" type="email" name="" id="" placeholder="Email">
-                                <input class="form-control password" type="password" name="" id="" placeholder="Password">
+                                <input class="form-control mb-2 email" type="email" name="" placeholder="Email">
+                                <input class="form-control password" type="password" name="" placeholder="Password">
                                 <div class="d-flex forgot_password gap-1 mt-3">
                                     <div class="input-group d-flex gap-1 justify-content-between">
                                         <div>
