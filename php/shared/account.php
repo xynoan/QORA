@@ -158,7 +158,7 @@
             <p class="m-0 fw-bold text-center">Mark Joseph Roxas</p>
             <p class="text-center">roxas.markjoseph@gmail.com</p>
             <p class="text-center"><i class="fa-solid fa-circle-half-stroke" style="color: var(--main-color);"></i> Theme</p>
-            <p class="text-center"><a href="#" class="text-decoration-none text-black"><i class="fa-solid fa-sliders" style="rotate: 270deg;"></i> Settings</a></p>
+            <p class="text-center"><a href="../shared/settings.php" class="text-decoration-none text-black"><i class="fa-solid fa-sliders" style="rotate: 270deg;"></i> Settings</a></p>
             <hr style="width: 100%;">
             <p class="fw-bold">Switch Account</p>
             <div class="container">

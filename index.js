@@ -1,35 +1,30 @@
+let hamburger = document.querySelector('.hamburger');
+let navMenu = document.querySelector('.nav-menu');
+let college = document.getElementById("CCS");
+let popupDiv = document.getElementById('profileDiv');
 // hamburger
 function toggleMenu() {
-    let hamburger = document.querySelector('.hamburger');
     hamburger.classList.toggle('active');
-
-    let navMenu = document.querySelector('.nav-menu');
     navMenu.classList.toggle('active');
 }
 
 function toggleProgram() {
-    let college = document.getElementById("CCS");
     college.classList.toggle('active');
 }
 
 function toggleProfile() {
-    const popupDiv = document.getElementById('profileDiv');
     popupDiv.classList.toggle('active');
 }
 
-(async () => {
+document.addEventListener("DOMContentLoaded", () => {
     // form
-    function addPreviousButtonListener() {
-        let previousButton = document.getElementById("previousButton");
+    let previousButton = document.getElementById("previousButton");
 
-        if (previousButton) {
-            previousButton.addEventListener("click", () => {
-                window.history.back();
-            });
-        }
+    if (previousButton) {
+        previousButton.addEventListener("click", () => {
+            window.history.back();
+        });
     }
-
-    document.addEventListener('DOMContentLoaded', addPreviousButtonListener);
 
     // OTP
     const inputs = document.querySelectorAll("#otp > *[id]");
@@ -89,4 +84,10 @@ function toggleProfile() {
             }
         });
     }
-})();
+});
+
+document.addEventListener("click", (e) => {
+    if (e.target.id !== "profile_img" && popupDiv.classList.contains("active")) {
+        popupDiv.classList.toggle("active");
+    }
+});
