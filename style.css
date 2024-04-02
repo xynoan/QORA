@@ -260,6 +260,9 @@ img.qora_image:hover {
   }
 }
 
+/* end of navbar */
+
+/* misc */
 #profileDiv {
   opacity: 0;
   visibility: hidden;
@@ -280,7 +283,8 @@ img.qora_image:hover {
   transform: translateY(0);
 }
 
-#add_new_account:hover, #logout:hover {
+#add_new_account:hover,
+#logout:hover {
   text-decoration: underline !important;
 }
 
@@ -290,18 +294,23 @@ img.qora_image:hover {
   transition: all 0.5s;
 }
 
-#settings:hover {
+.putBorder:hover {
   padding: 5px;
   border-radius: 5px;
   border: 2px solid black;
 }
 
-#logoutBtn:hover, #save:hover {
+.forgotPassword:hover {
+  color: var(--main-color) !important;
+  transition: color 0.5s;
+}
+
+#logoutBtn:hover,
+#save:hover {
   background-color: black !important;
   transition: background-color 0.5s;
 }
-
-/* end of navbar */
+/* end of misc */
 
 /* footer */
 h2 {

@@ -105,7 +105,7 @@
                         <input type="password" name="" id="oldPassword" class="form-control">
                     </div>
                 </div>
-                <a href="" class="text-black">Forgot Password</a>
+                <a href="../login/forgot.php" class="text-black forgotPassword">Forgot Password</a>
             </div>
             <div class="mt-4 d-flex gap-3 justify-content-end">
                 <a href="#" onclick="toggleSave()" class="text-decoration-none text-white p-3 rounded-4" style="background-color: var(--main-color);" id="save">Save Changes</a>

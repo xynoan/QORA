@@ -164,8 +164,8 @@
                                                 This modal is only for simulation and will be removed later.
                                             </div>
                                             <div class="modal-footer d-flex flex-column align-items-end">
-                                                <button type="submit" class="btn btn-primary next" style="width: 50%; border: 2px solid var(--main-color);">Login as Student</button>
-                                                <button id="cancel_application" type="button" class="fw-bold btn btn-secondary cancel_application" data-bs-dismiss="modal" style="width: 50%; border: 2px solid var(--main-color); background: white; color: var(--main-color);">Login as Registrar</button>
+                                                <button type="submit" class="btn btn-primary next p-2" style="width: 50%; border: 2px solid var(--main-color);">Login as Student</button>
+                                                <a id="cancel_application" href="./registrar/index.php" class="text-decoration-none fw-bold text-center rounded-2 p-2 cancel_application" style="width: 50%; border: 2px solid var(--main-color); background: white; color: var(--main-color);">Login as Registrar</a>
                                             </div>
                                         </div>
                                     </div>
