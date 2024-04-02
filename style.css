@@ -284,13 +284,19 @@ img.qora_image:hover {
   text-decoration: underline !important;
 }
 
-#cancel:hover {
+.cancel:hover {
   background-color: var(--main-color) !important;
   color: white !important;
   transition: all 0.5s;
 }
 
-#logoutBtn:hover {
+#settings:hover {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+#logoutBtn:hover, #save:hover {
   background-color: black !important;
   transition: background-color 0.5s;
 }

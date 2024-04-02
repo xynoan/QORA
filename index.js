@@ -16,6 +16,11 @@ function toggleProfile() {
     popupDiv.classList.toggle('active');
 }
 
+function toggleSave() {
+    alert("Saved changes.");
+    window.location.href = "../index.php";
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     // form
     let previousButton = document.getElementById("previousButton");

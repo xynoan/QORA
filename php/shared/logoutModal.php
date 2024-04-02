@@ -11,7 +11,7 @@
                 <p class="m-0 text-center">Are you sure this is what you want?</p>
             </div>
             <div class="modal-footer d-flex justify-content-center pt-0 gap-3 align-items-center" style="border-top: none;">
-                <button class="fw-bold rounded-3 p-2" type="button" style="border: none; background: white; color: var(--main-color);" data-bs-dismiss="modal" id="cancel">Cancel</button>
+                <button class="fw-bold rounded-3 p-2 cancel" type="button" style="border: none; background: white; color: var(--main-color);" data-bs-dismiss="modal" id="cancel">Cancel</button>
                 <a href="../index.php" class="fw-bold text-white rounded-3 p-2 text-decoration-none" style="border: none; background: var(--main-color);" id="logoutBtn">Logout</a>
                 <div class="input-group gap-1 d-flex justify-content-center">
                     <input type="checkbox" name="" id="allDevices" style="accent-color: var(--main-color);"> <label for="allDevices" style="color: var(--main-color);">Logout from all devices</label>
