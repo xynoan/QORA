@@ -76,6 +76,7 @@
     ?>
     <div class="container" id="main-container">
         <div id="content-form" class="p-5 mt-3">
+            <?php include('../shared/logoutModal.php') ?>
             <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 34%"></div>
             </div>

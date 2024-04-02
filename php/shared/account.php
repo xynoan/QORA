@@ -157,8 +157,8 @@
             <img id="profile_img" src="../../images/iu.jpg" alt="IU" height="100px" style="border: 2px solid var(--main-color); border-radius: 50%; margin: 10px 0 10px 80px;">
             <p class="m-0 fw-bold text-center">Mark Joseph Roxas</p>
             <p class="text-center">roxas.markjoseph@gmail.com</p>
-            <p class="text-center" style="cursor: pointer;"><i class="fa-solid fa-circle-half-stroke" style="color: var(--main-color);"></i> Theme</p>
-            <p class="text-center"><i class="fa-solid fa-sliders" style="rotate: 270deg;"></i> Settings</p>
+            <p class="text-center"><i class="fa-solid fa-circle-half-stroke" style="color: var(--main-color);"></i> Theme</p>
+            <p class="text-center"><a href="#" class="text-decoration-none text-black"><i class="fa-solid fa-sliders" style="rotate: 270deg;"></i> Settings</a></p>
             <hr style="width: 100%;">
             <p class="fw-bold">Switch Account</p>
             <div class="container">
@@ -184,7 +184,11 @@
                 </div>
             </div>
             <hr style="width: 100%;">
-            <p class="text-center"><a href="#" class="text-decoration-none text-black" id="logout"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a></p>
+            <p class="text-center">
+                <button id="logout" type="button" style="border: none; background: white;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i> Logout
+                </button>
+            </p>
         </div>
     </div>
     <p class="text-uppercase fs-4 text-center text-white p-2 m-0 border-top border-3 border-primary" style="background-color: black;">mula sa tahanan ng husay
