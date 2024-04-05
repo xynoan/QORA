@@ -16,7 +16,7 @@
         }
 
         #main-container {
-            margin-top: 170px;
+            margin-top: 160px;
             margin-bottom: 50px;
         }
 
@@ -65,27 +65,53 @@
     include('../shared/account.php');
     ?>
     <div class="container" id="main-container">
-        <div class="input-group">
-            <i class="fa-solid fa-magnifying-glass"></i><input type="search" name="" id="" placeholder="Search by Reference ID or Student Number" class="form-control">
-            <button type="submit">Search</button>
+        <div class="d-flex gap-5">
+            <div class="input-group border border-black p-3 rounded-4">
+                <i class="fa-solid fa-magnifying-glass mt-3 ms-3 me-3" style="font-size: 25px; color: grey;"></i><input type="search" name="" placeholder="Search by Reference ID or Student Number" class="form-control">
+                <button id="submit" type="submit" style="background-color: var(--main-color);" class="text-white rounded-end-4 p-3">Search</button>
+            </div>
+            <div class="d-flex text-white rounded-4 p-3 align-items-center" style="width: 50%;background-color: var(--main-color);">
+                <p class="fw-bold fs-3 m-0">2:30<span class="fw-normal" style="vertical-align: super; font-size: 13px;">45</span>PM</p>
+                <div>
+                    <p class="m-0 ms-3">Work Time</p>
+                    <p style="font-size: 10px;" class="m-0 ms-3">Saturday, March 2, 2024 (GMT+8) <br>
+                        Time in Manila, Metro Manila</p>
+                </div>
+            </div>
         </div>
         <div id="content-form" class="p-5 mt-3">
             <?php include('../shared/logoutModal.php') ?>
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 17%"></div>
-            </div>
-            <h1 class="mt-3">Student Enlistment Form</h1>
-            <hr class="divider">
-            <form action="./year.php" method="post" class="d-flex flex-column align-items-center justify-content-center gap-3">
-                <div id="image-container" class="square border border-3 border-grey d-flex flex-column justify-content-center align-items-center">
-                    <input type="file" id="actual-btn" hidden />
-                    <label for="actual-btn"><i class="fa-solid fa-cloud-arrow-up" style="opacity: 0.5; font-size: 100px;"></i></label>
-                    <span style="color: grey; width: 150px;" class="text-center mt-2"><b>Click to upload</b> or
-                        drag and drop</span>
+            <div class="first-half">
+                <h1 class="fs-2 d-inline-block">Students</h1>
+                <button>All</button>
+                <button>Active</button>
+                <select class="form-select d-inline-block" aria-label="Default select example" style="width: 15%;">
+                    <option selected>Archive</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <a href="#" class="text-decoration-none text-black"><i class="fa-solid fa-filter"></i>Filters</a>
+                <div class="container text-center mt-3">
+                    <div class="row row-cols-6">
+                        <div class="col mb-3">Photo</div>
+                        <div class="col mb-3">Student Name</div>
+                        <div class="col mb-3">Email</div>
+                        <div class="col mb-3">Status</div>
+                        <div class="col mb-3">Operation</div>
+                        <div class="col mb-3">Action</div>
+                        <div class="col mb-3">Photo</div>
+                        <div class="col mb-3">John Doe</div>
+                        <div class="col mb-3">doe.john@gmail.com</div>
+                        <div class="col mb-3">Graduated</div>
+                        <div class="col mb-3">Operation</div>
+                        <div class="col mb-3">View Profile</div>
+                    </div>
                 </div>
-                <a href="#" class="text-black"><label for="actual-btn" class="text-decoration-underline" style="cursor: pointer;">Change</label></a>
-                <button type="submit" class="btn text-white rounded-4" id="submitImage">SUBMIT</button>
-            </form>
+            </div>
+            <div class="second-half">
+
+            </div>
         </div>
     </div>
     <?php
