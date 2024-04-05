@@ -72,8 +72,8 @@
             <div class="yay p-4 rounded-5 d-flex justify-content-center text-center">
                 <div style="width: 50%;">
                     <i class="fa-regular fa-circle-check text-success" style="font-size: 75px;"></i>
-                    <h1 class="text-success">Yay!</h1>
-                    <h2>You are successfully registered. Good luck on your application :)</h2>
+                    <h1 class="text-success">Thank you!</h1>
+                    <h2>You are successfully registered. Good luck on your application.</h2>
                 </div>
             </div>
             <p class="mb-0 mt-2"><a href="../index.php" class="text-decoration-none back_to_homepage text-white py-3 px-5 rounded-4">Back to Homepage</a></p>
