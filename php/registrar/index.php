@@ -81,36 +81,47 @@
         </div>
         <div id="content-form" class="p-5 mt-3">
             <?php include('../shared/logoutModal.php') ?>
-            <div class="first-half">
-                <h1 class="fs-2 d-inline-block">Students</h1>
-                <button>All</button>
-                <button>Active</button>
-                <select class="form-select d-inline-block" aria-label="Default select example" style="width: 15%;">
-                    <option selected>Archive</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                </select>
-                <a href="#" class="text-decoration-none text-black"><i class="fa-solid fa-filter"></i>Filters</a>
-                <div class="container text-center mt-3">
-                    <div class="row row-cols-6">
-                        <div class="col mb-3">Photo</div>
-                        <div class="col mb-3">Student Name</div>
-                        <div class="col mb-3">Email</div>
-                        <div class="col mb-3">Status</div>
-                        <div class="col mb-3">Operation</div>
-                        <div class="col mb-3">Action</div>
-                        <div class="col mb-3">Photo</div>
-                        <div class="col mb-3">John Doe</div>
-                        <div class="col mb-3">doe.john@gmail.com</div>
-                        <div class="col mb-3">Graduated</div>
-                        <div class="col mb-3">Operation</div>
-                        <div class="col mb-3">View Profile</div>
+            <div class="d-flex gap-5">
+                <div class="first-half" style="width: 65%;">
+                    <h1 class="fs-2 d-inline-block">Students</h1>
+                    <button>All</button>
+                    <button>Active</button>
+                    <select class="form-select d-inline-block" aria-label="Default select example" style="width: 15%;">
+                        <option selected>Archive</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <a href="#" class="text-decoration-none text-black"><i class="fa-solid fa-filter"></i>Filters</a>
+                    <div class="container text-center mt-3">
+                        <div class="row row-cols-6">
+                            <div class="col mb-3">Photo</div>
+                            <div class="col mb-3">Student Name</div>
+                            <div class="col mb-3">Email</div>
+                            <div class="col mb-3">Status</div>
+                            <div class="col mb-3">Operation</div>
+                            <div class="col mb-3">Action</div>
+                            <div class="col mb-3" style="font-size: 10px;">Photo</div>
+                            <div class="col mb-3" style="font-size: 10px;">John Doe</div>
+                            <div class="col mb-3" style="font-size: 10px;">doe.john@gmail.com</div>
+                            <div class="col mb-3" style="font-size: 10px;">Graduated</div>
+                            <div class="col mb-3" style="font-size: 10px;">Operation</div>
+                            <div class="col mb-3" style="font-size: 10px;">View Profile</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="second-half">
-
+                <div class="second-half" style="width: 35%;">
+                    <input type="text" name="" placeholder="Reference ID" class="form-control mb-3" style="width: 70%;">
+                    <div class="border border-black rounded-3 p-5">
+                        <img class="border border-black border-2" height="170px" src="https://i.pinimg.com/564x/fc/d8/63/fcd863cae619ccaa27ae4c69d97d901a.jpg" alt="">
+                        <span class="name">Mark Joseph Roxas</span>
+                        <span class="year">REGULAR 3RD YR - 1ST SEM</span>
+                        <span class="status text-success">CLEARED</span>
+                        <span class="gwa">GWA: 1.64</span>
+                        <a href="#">View Profile</a>
+                        <a href="#">Enlist Student</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
