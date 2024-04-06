@@ -304,7 +304,7 @@
                         </div>
                         <div class="d-flex justify-content-between">
                             <a href="./view_profile.php" class="underline-on-hover text-decoration-none text-black border border-grey border-2 p-1 rounded-2">View Profile</a>
-                            <a href="#" class="underline-on-hover text-decoration-none text-black border border-grey border-2 p-1 rounded-2">Enlist Student</a>
+                            <a href="./enlist.php" class="underline-on-hover text-decoration-none text-black border border-grey border-2 p-1 rounded-2">Enlist Student</a>
                         </div>
                     </div>
                 </div>
