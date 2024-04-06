@@ -11,6 +11,32 @@
     ?>
     <title>Quezon City University - Registrar</title>
     <style>
+        i.operation {
+            font-size: 15px;
+            margin-right: 5px;
+        }
+
+        span.sub-span {
+            font-size: 13px;
+            border: 2px solid grey;
+            width: 80%;
+        }
+
+        button.filter,
+        select {
+            margin: 0 5px;
+            background-color: white;
+            border: 2px solid var(--main-color) !important;
+            color: var(--main-color) !important;
+            width: 15%;
+        }
+
+        button.filter:hover {
+            background-color: var(--main-color);
+            color: white !important;
+            transition: all 0.5s;
+        }
+
         hr.divider {
             width: 100%;
         }
@@ -23,6 +49,10 @@
         #content-form {
             border-radius: 30px;
             border: 2px solid var(--main-color);
+        }
+
+        .underline-on-hover:hover {
+            text-decoration: underline !important;
         }
 
         .navbar-brand {
@@ -83,16 +113,18 @@
             <?php include('../shared/logoutModal.php') ?>
             <div class="d-flex gap-5">
                 <div class="first-half" style="width: 65%;">
-                    <h1 class="fs-2 d-inline-block">Students</h1>
-                    <button>All</button>
-                    <button>Active</button>
-                    <select class="form-select d-inline-block" aria-label="Default select example" style="width: 15%;">
-                        <option selected>Archive</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </select>
-                    <a href="#" class="text-decoration-none text-black"><i class="fa-solid fa-filter"></i>Filters</a>
+                    <div>
+                        <h1 class="fs-2 d-inline-block">Students</h1>
+                        <button class="filter">All</button>
+                        <button class="filter">Active</button>
+                        <select class="form-select d-inline-block" aria-label="Default select example" style="width: 20%;">
+                            <option selected>Archive</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <a href="#" class="text-decoration-none text-white p-2 ms-2" style="background-color: var(--main-color);"><i class="fa-solid fa-filter text-white"></i>Filters</a>
+                    </div>
                     <div class="container text-center mt-3">
                         <div class="row row-cols-6">
                             <div class="col mb-3">Photo</div>
@@ -105,21 +137,73 @@
                             <div class="col mb-3" style="font-size: 10px;">John Doe</div>
                             <div class="col mb-3" style="font-size: 10px;">doe.john@gmail.com</div>
                             <div class="col mb-3" style="font-size: 10px;">Graduated</div>
-                            <div class="col mb-3" style="font-size: 10px;">Operation</div>
-                            <div class="col mb-3" style="font-size: 10px;">View Profile</div>
+                            <div class="col mb-3" style="font-size: 10px;"><i class="fa-solid fa-user-pen operation"></i><i class="operation fa-regular fa-trash-can"></i></div>
+                            <div class="col mb-3 underline-on-hover" style="font-size: 10px;"><a href="#" class="text-decoration-none text-black">View Profile</a></div>
+                            <div class="col mb-3" style="font-size: 10px;">Photo</div>
+                            <div class="col mb-3" style="font-size: 10px;">Mark Joseph Roxas</div>
+                            <div class="col mb-3" style="font-size: 10px;">roxas.markjoseph@gmail.com</div>
+                            <div class="col mb-3" style="font-size: 10px;">Active</div>
+                            <div class="col mb-3" style="font-size: 10px;"><i class="fa-solid fa-user-pen operation"></i><i class="operation fa-regular fa-trash-can"></i></div>
+                            <div class="col mb-3 underline-on-hover" style="font-size: 10px;">View Profile</div>
+                            <div class="col mb-3" style="font-size: 10px;">Photo</div>
+                            <div class="col mb-3" style="font-size: 10px;">Nathaniel Carlo Morva</div>
+                            <div class="col mb-3" style="font-size: 10px;">morva.nathanielcarlo@gmail.com</div>
+                            <div class="col mb-3" style="font-size: 10px;">Active</div>
+                            <div class="col mb-3" style="font-size: 10px;"><i class="fa-solid fa-user-pen operation"></i><i class="operation fa-regular fa-trash-can"></i></div>
+                            <div class="col mb-3 underline-on-hover" style="font-size: 10px;">View Profile</div>
+                            <div class="col mb-3" style="font-size: 10px;">Photo</div>
+                            <div class="col mb-3" style="font-size: 10px;">Blake Justin Bangcaya</div>
+                            <div class="col mb-3" style="font-size: 10px;">bangcaya.blakejustin@gmail.com</div>
+                            <div class="col mb-3" style="font-size: 10px;">Active</div>
+                            <div class="col mb-3" style="font-size: 10px;"><i class="fa-solid fa-user-pen operation"></i><i class="operation fa-regular fa-trash-can"></i></div>
+                            <div class="col mb-3 underline-on-hover" style="font-size: 10px;">View Profile</div>
+                            <div class="col mb-3" style="font-size: 10px;">Photo</div>
+                            <div class="col mb-3" style="font-size: 10px;">Toni Fowler</div>
+                            <div class="col mb-3" style="font-size: 10px;">fowler.toni@gmail.com</div>
+                            <div class="col mb-3" style="font-size: 10px;">Dropped</div>
+                            <div class="col mb-3" style="font-size: 10px;"><i class="fa-solid fa-user-pen operation"></i><i class="operation fa-regular fa-trash-can"></i></div>
+                            <div class="col mb-3 underline-on-hover" style="font-size: 10px;">View Profile</div>
+                            <div class="col mb-3" style="font-size: 10px;">Photo</div>
+                            <div class="col mb-3" style="font-size: 10px;">John Doe</div>
+                            <div class="col mb-3" style="font-size: 10px;">doe.john@gmail.com</div>
+                            <div class="col mb-3" style="font-size: 10px;">Graduated</div>
+                            <div class="col mb-3" style="font-size: 10px;"><i class="fa-solid fa-user-pen operation"></i><i class="operation fa-regular fa-trash-can"></i></div>
+                            <div class="col mb-3 underline-on-hover" style="font-size: 10px;">View Profile</div>
+                            <div class="col mb-3" style="font-size: 10px;">Photo</div>
+                            <div class="col mb-3" style="font-size: 10px;">John Doe</div>
+                            <div class="col mb-3" style="font-size: 10px;">doe.john@gmail.com</div>
+                            <div class="col mb-3" style="font-size: 10px;">Graduated</div>
+                            <div class="col mb-3" style="font-size: 10px;"><i class="fa-solid fa-user-pen operation"></i><i class="operation fa-regular fa-trash-can"></i></div>
+                            <div class="col mb-3 underline-on-hover" style="font-size: 10px;">View Profile</div>
+                            <div class="col mb-3" style="font-size: 10px;">Photo</div>
+                            <div class="col mb-3" style="font-size: 10px;">John Doe</div>
+                            <div class="col mb-3" style="font-size: 10px;">doe.john@gmail.com</div>
+                            <div class="col mb-3" style="font-size: 10px;">Graduated</div>
+                            <div class="col mb-3" style="font-size: 10px;"><i class="fa-solid fa-user-pen operation"></i><i class="operation fa-regular fa-trash-can"></i></div>
+                            <div class="col mb-3 underline-on-hover" style="font-size: 10px;">View Profile</div>
+                            <div class="col mb-3" style="font-size: 10px;">Photo</div>
+                            <div class="col mb-3" style="font-size: 10px;">John Doe</div>
+                            <div class="col mb-3" style="font-size: 10px;">doe.john@gmail.com</div>
+                            <div class="col mb-3" style="font-size: 10px;">Graduated</div>
+                            <div class="col mb-3" style="font-size: 10px;"><i class="fa-solid fa-user-pen operation"></i><i class="operation fa-regular fa-trash-can"></i></div>
+                            <div class="col mb-3 underline-on-hover" style="font-size: 10px;">View Profile</div>
                         </div>
                     </div>
                 </div>
                 <div class="second-half" style="width: 35%;">
                     <input type="text" name="" placeholder="Reference ID" class="form-control mb-3" style="width: 70%;">
                     <div class="border border-black rounded-3 p-5">
-                        <img class="border border-black border-2" height="170px" src="https://i.pinimg.com/564x/fc/d8/63/fcd863cae619ccaa27ae4c69d97d901a.jpg" alt="">
-                        <span class="name">Mark Joseph Roxas</span>
-                        <span class="year">REGULAR 3RD YR - 1ST SEM</span>
-                        <span class="status text-success">CLEARED</span>
-                        <span class="gwa">GWA: 1.64</span>
-                        <a href="#">View Profile</a>
-                        <a href="#">Enlist Student</a>
+                        <div class="mb-4 d-flex flex-column justify-content-center align-items-center text-center">
+                            <img class="border border-black border-2" height="150px" src="https://i.pinimg.com/564x/fc/d8/63/fcd863cae619ccaa27ae4c69d97d901a.jpg" alt="">
+                            <span class="name fw-bold fs-5 mb-2">Mark Joseph Roxas</span>
+                            <span class="year sub-span rounded-2 mb-2">REGULAR 3RD YR - 1ST SEM</span>
+                            <span class="status text-success sub-span rounded-2 mb-2">CLEARED</span>
+                            <span class="gwa sub-span rounded-2">GWA: 1.64</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <a href="./view_profile.php" class="underline-on-hover text-decoration-none text-black border border-grey border-2 p-1 rounded-2">View Profile</a>
+                            <a href="#" class="underline-on-hover text-decoration-none text-black border border-grey border-2 p-1 rounded-2">Enlist Student</a>
+                        </div>
                     </div>
                 </div>
             </div>
