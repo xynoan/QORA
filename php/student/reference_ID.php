@@ -94,7 +94,7 @@
                         <p class="text-success fw-bold mb-0">REGULAR</p>
                         <p>March 28, 2024 (8:00am -12:00pm)</p>
                     </div>
-                    <p style="width: 70%;" class="text-center fw-bold">*Regular students are advised to proceed to the school for enrollment with their reference ID. The Registrar's office will facilitate any necessary modifications to the automated enrollment certificate as needed.</p>
+                    <p style="width: 70%;" class="text-center fw-bold">*Regular students are advised to proceed to the registrar's office (Administration Building 2nd Floor, San Bartolome Novaliches Campus, look for Ms. Sheryl P. Mostajo) for enrollment with their reference ID. The Registrar's office will facilitate any necessary modifications to the automated enrollment certificate as needed.</p>
                 </div>
                 <div class="d-flex justify-content-between mt-4">
                     <button class="btn next text-white" id="previousButton" type="button"><i class="fa-solid fa-file-pdf"></i> Save as PDF</button>
