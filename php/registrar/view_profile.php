@@ -38,7 +38,6 @@
 
         #main-container {
             margin-top: 160px;
-            margin-bottom: 50px;
         }
 
         #content-form {
@@ -93,11 +92,13 @@
         <div id="content-form" class="p-5 mt-3">
             <?php include('../shared/logoutModal.php') ?>
             <div class="d-flex flex-column justify-content-center align-items-center">
+                <img src="../../images/QCU-Logo.png" alt="QCU" height="100px" style="position: absolute; top: 210px; left: 375px;">
                 <p class="fw-bold fs-4 m-0">QUEZON CITY UNIVERSITY</p>
                 <p class="m-0">673 Quirino Hi-Way, San Bartolome, Novaliches Q.C</p>
                 <p class="fw-bold fs-5 m-0">ADMISSIONS OFFICE</p>
                 <p class="m-0">STUDENT APPLICATION FORM</p>
                 <p><span class="text-danger">1st</span> SEM, AY: <span class="text-danger">2024-2025</span></p>
+                <img src="../../images/iu.jpg" alt="IU" height="150px" style="position: absolute; left: 950px; border: 2px solid black;">
             </div>
             <!-- ----------------------------------------------------------------------------------- -->
             <h1 class="fs-2">Personal Information</h1>
@@ -184,7 +185,24 @@
                 </div>
             </div>
             <hr class="divider">
-            <p class="fw-bold">Applying as</p>
+            <div class="d-flex gap-5">
+                <div class="d-flex flex-column">
+                    <p class="fw-bold">Applying as</p>
+                    <input type="text" name="" id="" class="form-control" disabled>
+                </div>
+                <div class="d-flex flex-column">
+                    <p class="fw-bold">Year Level</p>
+                    <input type="text" name="" id="" class="form-control" disabled>
+                </div>
+                <div class="d-flex flex-column">
+                    <p class="fw-bold">Term</p>
+                    <input type="text" name="" id="" class="form-control" disabled>
+                </div>
+                <div class="d-flex flex-column">
+                    <p class="fw-bold">Academic Year</p>
+                    <input type="text" name="" id="" class="form-control" disabled>
+                </div>
+            </div>
             <!-- ----------------------------------------------------------------------------------- -->
             <h2 class="fs-2 mt-4">Educational Attainment</h2>
             <hr class="divider">
@@ -360,6 +378,7 @@
             </form>
         </div>
     </div>
+    <p class="text-end" style="margin: 20px 125px 20px 0;"><a href="./index.php" class="text-decoration-none text-white p-2 rounded-3 black-on-hover" style="background-color: var(--main-color);">Back to Search Tab</a></p>
     <?php
     $beAQcianPath = "../be_a_qcian/";
     $loginPath = "../login/";
