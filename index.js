@@ -2,7 +2,12 @@ let hamburger = document.querySelector('.hamburger');
 let navMenu = document.querySelector('.nav-menu');
 let college = document.getElementById("CCS");
 let popupDiv = document.getElementById('profileDiv');
-// hamburger
+let filterDiv = document.getElementById('filter-menu');
+let academicYear = document.getElementById('academicYear');
+let collegeProgram = document.getElementById('collegeProgram');
+let section = document.getElementById('section');
+let statusDiv = document.getElementById('status');
+
 function toggleMenu() {
     hamburger.classList.toggle('active');
     navMenu.classList.toggle('active');
@@ -19,6 +24,39 @@ function toggleProfile() {
 function toggleSave() {
     alert("Saved changes.");
     window.location.href = "../index.php";
+}
+
+function toggleFilter() {
+    filterDiv.classList.toggle('active');
+    removeActiveClassFromAll(academicYear, collegeProgram, section, statusDiv);
+}
+
+function toggleAcademicYear() {
+    academicYear.classList.toggle('active');
+    removeActiveClassFromAll(collegeProgram, section, statusDiv);
+}
+
+function toggleCollegeProgram() {
+    collegeProgram.classList.toggle('active');
+    removeActiveClassFromAll(academicYear, section, statusDiv);
+}
+
+function toggleSection() {
+    section.classList.toggle('active');
+    removeActiveClassFromAll(academicYear, collegeProgram, statusDiv);
+}
+
+function toggleStatus() {
+    statusDiv.classList.toggle('active');
+    removeActiveClassFromAll(academicYear, collegeProgram, section);
+}
+
+function removeActiveClassFromAll(...elements) {
+    elements.forEach(element => {
+        if (element.classList.contains('active')) {
+            element.classList.remove('active');
+        }
+    });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -95,4 +133,15 @@ document.addEventListener("click", (e) => {
     if (e.target.id !== "profile_img" && popupDiv.classList.contains("active")) {
         popupDiv.classList.toggle("active");
     }
+
+    document.addEventListener("click", (e) => {
+        if (
+            !e.target.closest("#filter-menu") &&
+            e.target.id !== "filter-anchor" &&
+            filterDiv.classList.contains("active")
+        ) {
+            filterDiv.classList.remove("active");
+            removeActiveClassFromAll(academicYear, collegeProgram, section, statusDiv);
+        }
+    });
 });

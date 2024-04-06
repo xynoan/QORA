@@ -11,6 +11,11 @@
     ?>
     <title>Quezon City University - Registrar</title>
     <style>
+        div.active {
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+
         i.operation {
             font-size: 15px;
             margin-right: 5px;
@@ -49,6 +54,20 @@
         #content-form {
             border-radius: 30px;
             border: 2px solid var(--main-color);
+        }
+
+        .graduated {
+            background-color: grey !important;
+            color: white !important;
+            width: 75px;
+            margin-left: 20px;
+            margin: 0;
+        }
+
+        .white-on-hover:hover {
+            background-color: white;
+            color: black;
+            cursor: pointer;
         }
 
         .underline-on-hover:hover {
@@ -123,71 +142,154 @@
                             <option value="2">Two</option>
                             <option value="3">Three</option>
                         </select>
-                        <a href="#" class="text-decoration-none text-white p-2 ms-2" style="background-color: var(--main-color);"><i class="fa-solid fa-filter text-white"></i>Filters</a>
-                    </div>
-                    <div class="container text-center mt-3">
-                        <div class="row row-cols-6">
-                            <div class="col mb-3">Photo</div>
-                            <div class="col mb-3">Student Name</div>
-                            <div class="col mb-3">Email</div>
-                            <div class="col mb-3">Status</div>
-                            <div class="col mb-3">Operation</div>
-                            <div class="col mb-3">Action</div>
-                            <div class="col mb-3" style="font-size: 10px;">Photo</div>
-                            <div class="col mb-3" style="font-size: 10px;">John Doe</div>
-                            <div class="col mb-3" style="font-size: 10px;">doe.john@gmail.com</div>
-                            <div class="col mb-3" style="font-size: 10px;">Graduated</div>
-                            <div class="col mb-3" style="font-size: 10px;"><i class="fa-solid fa-user-pen operation"></i><i class="operation fa-regular fa-trash-can"></i></div>
-                            <div class="col mb-3 underline-on-hover" style="font-size: 10px;"><a href="#" class="text-decoration-none text-black">View Profile</a></div>
-                            <div class="col mb-3" style="font-size: 10px;">Photo</div>
-                            <div class="col mb-3" style="font-size: 10px;">Mark Joseph Roxas</div>
-                            <div class="col mb-3" style="font-size: 10px;">roxas.markjoseph@gmail.com</div>
-                            <div class="col mb-3" style="font-size: 10px;">Active</div>
-                            <div class="col mb-3" style="font-size: 10px;"><i class="fa-solid fa-user-pen operation"></i><i class="operation fa-regular fa-trash-can"></i></div>
-                            <div class="col mb-3 underline-on-hover" style="font-size: 10px;">View Profile</div>
-                            <div class="col mb-3" style="font-size: 10px;">Photo</div>
-                            <div class="col mb-3" style="font-size: 10px;">Nathaniel Carlo Morva</div>
-                            <div class="col mb-3" style="font-size: 10px;">morva.nathanielcarlo@gmail.com</div>
-                            <div class="col mb-3" style="font-size: 10px;">Active</div>
-                            <div class="col mb-3" style="font-size: 10px;"><i class="fa-solid fa-user-pen operation"></i><i class="operation fa-regular fa-trash-can"></i></div>
-                            <div class="col mb-3 underline-on-hover" style="font-size: 10px;">View Profile</div>
-                            <div class="col mb-3" style="font-size: 10px;">Photo</div>
-                            <div class="col mb-3" style="font-size: 10px;">Blake Justin Bangcaya</div>
-                            <div class="col mb-3" style="font-size: 10px;">bangcaya.blakejustin@gmail.com</div>
-                            <div class="col mb-3" style="font-size: 10px;">Active</div>
-                            <div class="col mb-3" style="font-size: 10px;"><i class="fa-solid fa-user-pen operation"></i><i class="operation fa-regular fa-trash-can"></i></div>
-                            <div class="col mb-3 underline-on-hover" style="font-size: 10px;">View Profile</div>
-                            <div class="col mb-3" style="font-size: 10px;">Photo</div>
-                            <div class="col mb-3" style="font-size: 10px;">Toni Fowler</div>
-                            <div class="col mb-3" style="font-size: 10px;">fowler.toni@gmail.com</div>
-                            <div class="col mb-3" style="font-size: 10px;">Dropped</div>
-                            <div class="col mb-3" style="font-size: 10px;"><i class="fa-solid fa-user-pen operation"></i><i class="operation fa-regular fa-trash-can"></i></div>
-                            <div class="col mb-3 underline-on-hover" style="font-size: 10px;">View Profile</div>
-                            <div class="col mb-3" style="font-size: 10px;">Photo</div>
-                            <div class="col mb-3" style="font-size: 10px;">John Doe</div>
-                            <div class="col mb-3" style="font-size: 10px;">doe.john@gmail.com</div>
-                            <div class="col mb-3" style="font-size: 10px;">Graduated</div>
-                            <div class="col mb-3" style="font-size: 10px;"><i class="fa-solid fa-user-pen operation"></i><i class="operation fa-regular fa-trash-can"></i></div>
-                            <div class="col mb-3 underline-on-hover" style="font-size: 10px;">View Profile</div>
-                            <div class="col mb-3" style="font-size: 10px;">Photo</div>
-                            <div class="col mb-3" style="font-size: 10px;">John Doe</div>
-                            <div class="col mb-3" style="font-size: 10px;">doe.john@gmail.com</div>
-                            <div class="col mb-3" style="font-size: 10px;">Graduated</div>
-                            <div class="col mb-3" style="font-size: 10px;"><i class="fa-solid fa-user-pen operation"></i><i class="operation fa-regular fa-trash-can"></i></div>
-                            <div class="col mb-3 underline-on-hover" style="font-size: 10px;">View Profile</div>
-                            <div class="col mb-3" style="font-size: 10px;">Photo</div>
-                            <div class="col mb-3" style="font-size: 10px;">John Doe</div>
-                            <div class="col mb-3" style="font-size: 10px;">doe.john@gmail.com</div>
-                            <div class="col mb-3" style="font-size: 10px;">Graduated</div>
-                            <div class="col mb-3" style="font-size: 10px;"><i class="fa-solid fa-user-pen operation"></i><i class="operation fa-regular fa-trash-can"></i></div>
-                            <div class="col mb-3 underline-on-hover" style="font-size: 10px;">View Profile</div>
-                            <div class="col mb-3" style="font-size: 10px;">Photo</div>
-                            <div class="col mb-3" style="font-size: 10px;">John Doe</div>
-                            <div class="col mb-3" style="font-size: 10px;">doe.john@gmail.com</div>
-                            <div class="col mb-3" style="font-size: 10px;">Graduated</div>
-                            <div class="col mb-3" style="font-size: 10px;"><i class="fa-solid fa-user-pen operation"></i><i class="operation fa-regular fa-trash-can"></i></div>
-                            <div class="col mb-3 underline-on-hover" style="font-size: 10px;">View Profile</div>
+                        <a id="filter-anchor" href="#" onclick="toggleFilter()" class="black-on-hover text-decoration-none text-white p-2 ms-2" style="background-color: var(--main-color);"><i class="fa-solid fa-filter text-white me-2"></i>Filters</a>
+                        <div id="filter-menu" class="p-3 border border-black text-white rounded-4" style="position: absolute; width: 15%; background-color: var(--main-color); left: 680px; visibility: hidden; opacity: 0;">
+                            <span onclick="toggleAcademicYear()" class="white-on-hover">Academic Year ></span>
+                            <span onclick="toggleCollegeProgram()" class="white-on-hover">College Program ></span>
+                            <span onclick="toggleSection()" class="white-on-hover">Yr. Level/Section ></span>
+                            <span onclick="toggleStatus()" class="white-on-hover">Student Status ></span>
+                            <span class="white-on-hover">Student Number</span>
                         </div>
+                        <div class="border border-black text-white" id="academicYear" style="position: absolute; background-color: var(--main-color); width: 10%; left: 880px; visibility: hidden; opacity: 0;">
+                            <p class="text-center">Set Year</p>
+                            <div class="input-group">
+                                <select class="form-select form-select-sm" aria-label="Small select example">
+                                    <option selected></option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                                -
+                                <select class="form-select form-select-sm" aria-label="Small select example">
+                                    <option selected></option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="border border-black text-white" id="collegeProgram" style="position: absolute; background-color: var(--main-color); left: 880px; top: 400px; visibility: hidden; opacity: 0;">
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    College of Business and Accountancy
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    College of Education
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    College of Engineering
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    College of Computer Studies
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Bachelor of Science in Information and Technology</a></li>
+                                    <li><a class="dropdown-item" href="#">Bachelor of Science in Information Systems</a></li>
+                                    <li><a class="dropdown-item" href="#">Bachelor of Science in Computer Science</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="border border-black text-white p-2" id="section" style="position: absolute; background-color: var(--main-color); left: 880px; top: 430px; visibility: hidden; opacity: 0;">
+                            <div class="d-flex gap-3">
+                                <div class="d-flex flex-column">
+                                    <p class="text-center m-0" style="opacity: 0.5;">YEAR LEVEL</p>
+                                    <div class="input-group gap-1">
+                                        <input type="radio" name="year" id="1st"> <label for="1st">1st Year</label>
+                                    </div>
+                                    <div class="input-group gap-1"><input type="radio" name="year" id="2nd"> <label for="2nd">2nd Year</label></div>
+                                    <div class="input-group gap-1"><input type="radio" name="year" id="3rd"> <label for="3rd">3rd Year</label></div>
+                                    <div class="input-group gap-1"><input type="radio" name="year" id="4th"> <label for="4th">4th Year</label></div>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <p class="text-center m-0" style="opacity: 0.5;">SEMESTER</p>
+                                    <div class="input-group gap-1">
+                                        <input type="radio" name="sem" id="1stSem"> <label for="1stSem">1ST SEM</label>
+                                    </div>
+                                    <div class="input-group gap-1"><input type="radio" name="sem" id="2ndSem"> <label for="2ndSem">2ND SEM</label></div>
+                                </div>
+                            </div>
+                            <div>
+                                <p style="opacity: 0.5;" class="m-0">SECTION</p>
+                                <div class="input-group gap-2">
+                                    <input type="radio" name="section" id="A"> <label for="A">A</label>
+                                    <input type="radio" name="section" id="D"> <label for="D">D</label>
+                                    <input type="radio" name="section" id="G"> <label for="G">G</label>
+                                    <input type="radio" name="section" id="J"> <label for="J">J</label>
+                                </div>
+                                <div class="input-group gap-2">
+                                    <input type="radio" name="section" id="B"> <label for="B">B</label>
+                                    <input type="radio" name="section" id="E"> <label for="E">E</label>
+                                    <input type="radio" name="section" id="H"> <label for="H">H</label>
+                                    <input type="radio" name="section" id="K"> <label for="K">K</label>
+                                </div>
+                                <div class="input-group gap-2">
+                                    <input type="radio" name="section" id="C"> <label for="C">C</label>
+                                    <input type="radio" name="section" id="F"> <label for="F">F</label>
+                                    <input type="radio" name="section" id="I"> <label for="I">I</label>
+                                    <input type="radio" name="section" id="L"> <label for="L">L</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border border-black text-white p-2" id="status" style="position: absolute; background-color: var(--main-color); left: 880px; top: 450px; visibility: hidden; opacity: 0;">
+                            <div class="d-flex flex-column">
+                                <p class="m-0" style="opacity: 0.5;">ACTIVE</p>
+                                <div class="input-group gap-1">
+                                    <input type="radio" name="active" id="Regular"> <label for="Regular">Regular</label>
+                                </div>
+                                <div class="input-group gap-1"><input type="radio" name="active" id="Irregular"> <label for="Irregular">Irregular</label></div>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <p class="m-0" style="opacity: 0.5;">ARCHIVE</p>
+                                <div class="input-group gap-1">
+                                    <input type="radio" name="archive" id="Graduated"> <label for="Graduated">Graduated</label>
+                                </div>
+                                <div class="input-group gap-1"><input type="radio" name="archive" id="Dropped"> <label for="Dropped">Dropped</label></div>
+                            </div>
+                        </div>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Photo</th>
+                                    <th scope="col">Student Name</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col">Operation</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Photo</td>
+                                    <td>John Doe</td>
+                                    <td>doe.john@gmail.com
+                                    </td>
+                                    <td><span class="graduated p-1">Graduated</span></td>
+                                    <td><i class="fa-solid fa-user-pen operation" style="cursor: pointer;"></i><i class="operation fa-regular fa-trash-can" style="cursor: pointer;"></i></td>
+                                    <td><a href="#" class="text-decoration-none text-black underline-on-hover">View Profile</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
                 <div class="second-half" style="width: 35%;">

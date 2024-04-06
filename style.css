@@ -307,7 +307,8 @@ img.qora_image:hover {
 
 #logoutBtn:hover,
 #save:hover,
-#submit:hover {
+#submit:hover,
+.black-on-hover:hover {
   background-color: black !important;
   transition: background-color 0.5s;
 }
