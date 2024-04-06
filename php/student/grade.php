@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php
     $styleLink = "../../style.css";
-    $shortcutIconLink = "../../images/logo-white.png";
+    $shortcutIconLink = "../../images/";
     include('../shared/link.php');
     ?>
     <title>Quezon City University - Enrollment</title>
@@ -91,7 +91,7 @@
                             <p class="fw-bold">No. of Units</p>
                         </div>
                         <div class="col">
-                            <p class="fw-bold">Grade</p>
+                            <p class="fw-bold">Last Semestral Grade</p>
                         </div>
                         <div class="col"></div>
                         <div class="col"><input type="text" class="form-control"></div>

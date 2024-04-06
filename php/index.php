@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php
     $styleLink = "../style.css";
-    $shortcutIconLink = "../images/logo-white.png";
+    $shortcutIconLink = "../images/";
     include('./shared/link.php');
     ?>
     <style>
