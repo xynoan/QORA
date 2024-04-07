@@ -147,13 +147,13 @@
                         </div>
                         <div class="d-inline-block me-2">
                             <div class="d-flex flex-column align-items-center">
-                                <i class="fa-solid fa-plus border border-black p-2 rounded-3 mainColorHover" style="display: inline-block; width: 32px; cursor: pointer;"></i>
+                                <a href="./addCourse.php" class="text-black"><i class="fa-solid fa-plus border border-black p-2 rounded-3 mainColorHover" style="display: inline-block; width: 32px; cursor: pointer;"></i></a>
                                 <span style="font-size: 12px;">ADD COURSES</span>
                             </div>
                         </div>
                         <div class="d-inline-block me-2">
                             <div class="d-flex flex-column align-items-center">
-                                <i class="fa-regular fa-pen-to-square border border-black p-2 rounded-3 mainColorHover" style="display: inline-block; width: 32px; cursor: pointer;"></i>
+                                <a href="./updateCourse.php" class="text-black"><i class="fa-regular fa-pen-to-square border border-black p-2 rounded-3 mainColorHover" style="display: inline-block; width: 32px; cursor: pointer;"></i></a>
                                 <span style="font-size: 12px;">UPDATE COURSES</span>
                             </div>
                         </div>
@@ -183,6 +183,7 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <p class="text-end"><a href="./printing.php" class="text-decoration-none text-white p-2 rounded-3 black-on-hover" style="background-color: var(--main-color);">Proceed ></a></p>
                     </div>
                 </div>
                 <div class="second-half" style="width: 35%;">
