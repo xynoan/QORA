@@ -1,6 +1,6 @@
 <footer class="text-white">
     <div class="p-5 footer">
-        <div class="container d-flex">
+        <div class="container d-flex gap-1">
             <div class="navigation">
                 <h2>Be a QCIAN</h2>
                 <p><a href="<?php echo $beAQcianPath ?>dpn.php" class="text-decoration-none text-white footer_link">Data Privacy Notice</a> <br>

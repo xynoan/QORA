@@ -99,6 +99,15 @@
         .forgot_password {
             font-size: 15px;
         }
+
+        @media (min-width: 1400px) {
+            section:first-child {
+                background-image: url(../images/QORA\ -\ HOMEPAGE.png), url(../images/campus.JPG);
+                background-position: 0% 20%, 0% 30%;
+                background-size: 1700px 1100px, 2000px 1500px;
+                background-repeat: no-repeat;
+            }
+        }
     </style>
     <title>Quezon City University</title>
 </head>

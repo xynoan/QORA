@@ -313,6 +313,7 @@ img.qora_image:hover {
   background-color: black !important;
   transition: background-color 0.5s;
 }
+
 /* end of misc */
 
 /* footer */
@@ -357,3 +358,80 @@ footer a:hover {
 }
 
 /* end of footer */
+
+/* media queries */
+@media (min-width: 1400px) {
+  section:first-child {
+    background-image: url(../images/QORA\ -\ HOMEPAGE.png), url(../images/campus.JPG);
+    background-position: 0% 20%, 0% 30%;
+    background-size: 1700px 1100px, 2000px 1500px;
+    background-repeat: no-repeat;
+  }
+
+  .nav-menu ul {
+    width: 30%;
+  }
+
+  /* hamburger */
+  .submenu {
+    width: 20% !important;
+    top: 265px;
+  }
+
+  .submenu,
+  .submenu2,
+  .submenu3,
+  .submenu4,
+  .submenu5,
+  .submenu6,
+  .submenu7,
+  .submenu8,
+  .submenu9,
+  .submenu10,
+  .submenu11,
+  .submenu12 {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    background-color: var(--main-color);
+    padding: 10px;
+    transition: transform 0.5s;
+    transform: translateX(-10%);
+    left: 700px;
+  }
+
+  .submenu2,
+  .submenu10,
+  .submenu11,
+  .submenu12 {
+    width: 80% !important;
+    left: 400px;
+  }
+
+  .submenu6,
+  .submenu7,
+  .submenu8,
+  .submenu9 {
+    width: 100% !important;
+    left: 450px;
+  }
+
+  /* end of hamburger */
+
+  /* misc */
+  #profileDiv {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10%);
+    border: 2px solid var(--main-color);
+    position: absolute;
+    right: 260px;
+    top: 75px;
+    height: 550px;
+    width: 300px;
+    background-color: white;
+  }
+  /* end of misc */
+}
+
+/* end of media queries */
