@@ -12,7 +12,7 @@ git clone https://github.com/xynoan/QORA.git
 
 P.S. If something went wrong, feel free to google it.
 
-P.P.S. For best experience, use desktop.
+P.P.S. For best experience, use desktop with the resolution of 1368 x 639.
 ## Technologies Used:
 - HTML
 - CSS
