@@ -77,15 +77,14 @@
                 </div>
                 <hr class="divider">
                 <p class="fw-bold">Applying as (Choose appropriate answer)</p>
-                <input type="checkbox" name="" id=""> Senior High School Graduate
+                <input type="radio" name="applyingAs" id="shs"><label for="shs" class="ms-1"> Senior High School Graduate</label>
                 <div class="dropdown d-inline-block">
                     <button class="btn border-black dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Track
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Academic</a></li>
+                        <li><a class="dropdown-item" href="#">Technical-Vocational-Livelihood</a></li>
                     </ul>
                 </div>
                 <div class="dropdown d-inline-block">
@@ -93,16 +92,16 @@
                         Strand
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">ABM</a></li>
+                        <li><a class="dropdown-item" href="#">HUMSS</a></li>
+                        <li><a class="dropdown-item" href="#">STEM</a></li>
                     </ul>
                 </div>
                 <div class="input-group gap-1">
-                    <input type="checkbox" name="" id="hsGraduate">
+                    <input type="radio" name="applyingAs" id="hsGraduate">
                     <label for="hsGraduate"> High School Graduate (Year 2015 and below)</label>
                 </div>
-                <input type="checkbox" name="" id=""> Transferee <br>
+                <input type="radio" name="applyingAs" id="transferee"><label for="transferee" class="ms-1">Transferee</label> <br>
                 <div class="input-group gap-1 align-items-baseline">
                     <p>Applying for Accreditation of Subjects? </p>
                     <div class="dropdown d-inline-block">
@@ -110,13 +109,12 @@
                             Select One
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Yes</a></li>
+                            <li><a class="dropdown-item" href="#">No</a></li>
                         </ul>
                     </div>
                 </div>
-                <input type="checkbox" name="" id=""> 2nd Degree Course Taker (Graduate of Bachelor’s Degree)
+                <input type="radio" name="applyingAs" id="2ndDegree"><label for="2ndDegree" class="ms-1">2nd Degree Course Taker (Graduate of Bachelor’s Degree)</label>
                 <hr class="divider">
                 <div class="d-flex gap-5">
                     <div>
@@ -125,38 +123,44 @@
                             <div class="col mb-4 choice">First Choice</div>
                             <select class="form-select d-inline-block course">
                                 <option selected>Select One</option>
-                                <option value="abm">ABM</option>
-                                <option value="humss">HUMSS</option>
-                                <option value="STEM">STEM</option>
-                                <option value="ICT">ICT</option>
-                                <option value="GAS">GAS</option>
+                                <option value="BECEd">Bachelor of Early Childhood Education</option>
+                                <option value="BSA">Bachelor of Science in Accountancy</option>
+                                <option value="BSCS">Bachelor of Science in Computer Science</option>
+                                <option value="BSECE">Bachelor of Science in Electronics Engineering</option>
+                                <option value="BSENT">Bachelor of Science in Entrepreneurship</option>
+                                <option value="BSIS">Bachelor of Science in Information Systems</option>
+                                <option value="BSIT">Bachelor of Science in Information Technology</option>
+                                <option value="BSMA">Bachelor of Science in Management Accounting</option>
                             </select>
                             <div class="col mb-4 choice">Second Choice</div>
                             <select class="form-select d-inline-block course">
                                 <option selected>Select One</option>
-                                <option value="abm">ABM</option>
-                                <option value="humss">HUMSS</option>
-                                <option value="STEM">STEM</option>
-                                <option value="ICT">ICT</option>
-                                <option value="GAS">GAS</option>
+                                <option value="BECEd">Bachelor of Early Childhood Education</option>
+                                <option value="BSA">Bachelor of Science in Accountancy</option>
+                                <option value="BSCS">Bachelor of Science in Computer Science</option>
+                                <option value="BSECE">Bachelor of Science in Electronics Engineering</option>
+                                <option value="BSENT">Bachelor of Science in Entrepreneurship</option>
+                                <option value="BSIS">Bachelor of Science in Information Systems</option>
+                                <option value="BSIT">Bachelor of Science in Information Technology</option>
+                                <option value="BSMA">Bachelor of Science in Management Accounting</option>
                             </select>
                             <div class="col mb-4 choice">Third Choice</div>
                             <select class="form-select d-inline-block course">
                                 <option selected>Select One</option>
-                                <option value="abm">ABM</option>
-                                <option value="humss">HUMSS</option>
-                                <option value="STEM">STEM</option>
-                                <option value="ICT">ICT</option>
-                                <option value="GAS">GAS</option>
+                                <option value="BECEd">Bachelor of Early Childhood Education</option>
+                                <option value="BSA">Bachelor of Science in Accountancy</option>
+                                <option value="BSCS">Bachelor of Science in Computer Science</option>
+                                <option value="BSECE">Bachelor of Science in Electronics Engineering</option>
+                                <option value="BSENT">Bachelor of Science in Entrepreneurship</option>
+                                <option value="BSIS">Bachelor of Science in Information Systems</option>
+                                <option value="BSIT">Bachelor of Science in Information Technology</option>
+                                <option value="BSMA">Bachelor of Science in Management Accounting</option>
                             </select>
                             <div class="col mb-4 choice">Currently Enrolled?</div>
                             <select class="form-select d-inline-block course">
                                 <option selected>Select One</option>
-                                <option value="abm">ABM</option>
-                                <option value="humss">HUMSS</option>
-                                <option value="STEM">STEM</option>
-                                <option value="ICT">ICT</option>
-                                <option value="GAS">GAS</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
                             </select>
                         </div>
                         <input type="text" name="" id="" placeholder="Name Of School" class="form-control">
@@ -167,29 +171,23 @@
                             <div class="col mb-4">First Choice</div>
                             <select class="form-select d-inline-block course">
                                 <option selected>Select One</option>
-                                <option value="abm">ABM</option>
-                                <option value="humss">HUMSS</option>
-                                <option value="STEM">STEM</option>
-                                <option value="ICT">ICT</option>
-                                <option value="GAS">GAS</option>
+                                <option value="sb">San Bartolome</option>
+                                <option value="sf">San Francisco</option>
+                                <option value="ba">Batasan</option>
                             </select>
                             <div class="col mb-4">Second Choice</div>
                             <select class="form-select d-inline-block course">
                                 <option selected>Select One</option>
-                                <option value="abm">ABM</option>
-                                <option value="humss">HUMSS</option>
-                                <option value="STEM">STEM</option>
-                                <option value="ICT">ICT</option>
-                                <option value="GAS">GAS</option>
+                                <option value="sb">San Bartolome</option>
+                                <option value="sf">San Francisco</option>
+                                <option value="ba">Batasan</option>
                             </select>
                             <div class="col mb-4">Third Choice</div>
                             <select class="form-select d-inline-block course" onchange="nextPage()">
                                 <option selected>Select One</option>
-                                <option value="abm">ABM</option>
-                                <option value="humss">HUMSS</option>
-                                <option value="STEM">STEM</option>
-                                <option value="ICT">ICT</option>
-                                <option value="GAS">GAS</option>
+                                <option value="sb">San Bartolome</option>
+                                <option value="sf">San Francisco</option>
+                                <option value="ba">Batasan</option>
                             </select>
                         </div>
                     </div>

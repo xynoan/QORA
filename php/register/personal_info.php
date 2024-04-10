@@ -81,11 +81,9 @@
                         <p class="fw-bold">Gender</p>
                         <select class="form-select d-inline-block" onchange="nextPage()" id="gender">
                             <option selected>Select One</option>
-                            <option value="abm">ABM</option>
-                            <option value="humss">HUMSS</option>
-                            <option value="STEM">STEM</option>
-                            <option value="ICT">ICT</option>
-                            <option value="GAS">GAS</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="LGBTQIA+">LGBTQIA+</option>
                         </select>
                     </div>
                 </div>
@@ -109,11 +107,10 @@
                         <p class="fw-bold">Civil Status</p>
                         <select class="form-select d-inline-block" onchange="nextPage()" id="gender">
                             <option selected>Select One</option>
-                            <option value="abm">ABM</option>
-                            <option value="humss">HUMSS</option>
-                            <option value="STEM">STEM</option>
-                            <option value="ICT">ICT</option>
-                            <option value="GAS">GAS</option>
+                            <option value="Single">Single</option>
+                            <option value="Married">Married</option>
+                            <option value="Divorced">Divorced</option>
+                            <option value="Widowed">Widowed</option>
                         </select>
                     </div>
                 </div>

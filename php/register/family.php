@@ -77,11 +77,10 @@
                         <p class="fw-bold"><label for="Educational">Educational Attainment</label></p>
                         <select class="form-select d-inline-block" id="Educational">
                             <option selected>Select One</option>
-                            <option value="abm">ABM</option>
-                            <option value="humss">HUMSS</option>
-                            <option value="STEM">STEM</option>
-                            <option value="ICT">ICT</option>
-                            <option value="GAS">GAS</option>
+                            <option value="Elementary">Elementary</option>
+                            <option value="hs">High School (non-K12)</option>
+                            <option value="hs-k12">High School (K-12)</option>
+                            <option value="Tertiary">Tertiary</option>
                         </select>
                     </div>
                     <div class="d-flex flex-column col">
@@ -97,23 +96,22 @@
                 </div>
                 <div class="mt-3 row row-cols-3">
                     <div class="d-flex flex-column col">
-                        <p class="fw-bold"><label for="Occupation">Occupation</label></p>
-                        <input type="text" name="" id="Occupation" class="form-control">
+                        <p class="fw-bold"><label for="OccupationMother">Occupation</label></p>
+                        <input type="text" name="" id="OccupationMother" class="form-control">
                     </div>
                     <div class="d-flex flex-column col">
-                        <p class="fw-bold"><label for="Educational">Educational Attainment</label></p>
-                        <select class="form-select d-inline-block" id="Educational">
+                        <p class="fw-bold"><label for="EducationalMother">Educational Attainment</label></p>
+                        <select class="form-select d-inline-block" id="EducationalMother">
                             <option selected>Select One</option>
-                            <option value="abm">ABM</option>
-                            <option value="humss">HUMSS</option>
-                            <option value="STEM">STEM</option>
-                            <option value="ICT">ICT</option>
-                            <option value="GAS">GAS</option>
+                            <option value="Elementary">Elementary</option>
+                            <option value="hs">High School (non-K12)</option>
+                            <option value="hs-k12">High School (K-12)</option>
+                            <option value="Tertiary">Tertiary</option>
                         </select>
                     </div>
                     <div class="d-flex flex-column col">
-                        <p class="fw-bold"><label for="Contact">Contact Number</label></p>
-                        <input type="text" name="" id="Contact" class="form-control">
+                        <p class="fw-bold"><label for="ContactMother">Contact Number</label></p>
+                        <input type="text" name="" id="ContactMother" class="form-control">
                     </div>
                 </div>
                 <p class="fw-bold mt-3">Address</p>
@@ -137,8 +135,8 @@
                         <input type="text" name="" id="Relationship" class="form-control">
                     </div>
                     <div style="width: 50%;">
-                        <label for="Contact" class="fw-bold my-3">Contact Number</label>
-                        <input type="text" name="" id="Contact" class="form-control">
+                        <label for="ContactGuardian" class="fw-bold my-3">Contact Number</label>
+                        <input type="text" name="" id="ContactGuardian" class="form-control">
                     </div>
                 </div>
                 <div class="d-flex justify-content-between mt-4">

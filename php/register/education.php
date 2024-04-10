@@ -61,51 +61,34 @@
             <h1 class="mt-3">Educational Attainment</h1>
             <hr class="divider">
             <form action="./family.php" method="post">
-                <p class="fw-bold m-0">College (Leave it blank if you have not enrolled to college before)</p>
-                <select class="form-select d-inline-block my-3" id="College">
-                    <option selected>Select One</option>
-                    <option value="abm">ABM</option>
-                    <option value="humss">HUMSS</option>
-                    <option value="STEM">STEM</option>
-                    <option value="ICT">ICT</option>
-                    <option value="GAS">GAS</option>
-                </select>
+                <p class="fw-bold"><label for="College">College (Leave it blank if you have not enrolled to college before)</label></p>
+                <input type="text" name="" id="College" class="form-control mb-3">
+                <p class="fw-bold mt-3"><label for="address">School Address</label></p>
+                <input type="text" name="" id="address" class="form-control mb-3">
                 <p class="fw-bold mb-0">Location</p>
                 <div class="d-flex justify-content-between">
                     <div style="width: 50%;">
                         <label for="location">Within Quezon City?</label>
                         <select class="form-select d-inline-block my-3" id="location" style="width: 65%;">
                             <option selected>Select One</option>
-                            <option value="abm">ABM</option>
-                            <option value="humss">HUMSS</option>
-                            <option value="STEM">STEM</option>
-                            <option value="ICT">ICT</option>
-                            <option value="GAS">GAS</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
                         </select>
                     </div>
                     <div style="width: 50%;">
                         <label for="School">School Type</label>
                         <select class="form-select d-inline-block my-3" id="School" style="width: 80%;">
                             <option selected>Select One</option>
-                            <option value="abm">ABM</option>
-                            <option value="humss">HUMSS</option>
-                            <option value="STEM">STEM</option>
-                            <option value="ICT">ICT</option>
-                            <option value="GAS">GAS</option>
+                            <option value="Public">Public</option>
+                            <option value="Private">Private</option>
+                            <option value="Local">Local</option>
                         </select>
                     </div>
                 </div>
                 <div class="mt-3 row row-cols-3">
                     <div class="d-flex flex-column col">
                         <p class="fw-bold"><label for="course">Course</label></p>
-                        <select class="form-select d-inline-block" id="course">
-                            <option selected>Select One</option>
-                            <option value="abm">ABM</option>
-                            <option value="humss">HUMSS</option>
-                            <option value="STEM">STEM</option>
-                            <option value="ICT">ICT</option>
-                            <option value="GAS">GAS</option>
-                        </select>
+                        <input type="text" name="" id="course" class="form-control">
                     </div>
                     <div class="d-flex flex-column col">
                         <p class="fw-bold"><label for="graduated">Date Graduated</label></p>
@@ -113,109 +96,85 @@
                     </div>
                     <div class="d-flex flex-column col">
                         <p class="fw-bold"><label for="honors">Honors Received (With Certificate)</label></p>
-                        <input type="text" name="" id="honors" class="form-control">
+                        <input type="text" name="" id="honors" class="form-control" placeholder="i.e. Top 1, High Honors, etc.">
                     </div>
                 </div>
                 <hr class="divider">
-                <p class="fw-bold">Technical Vocational (Leave it blank if you have not enrolled to vocational course before)</p>
-                <input type="text" name="" id="" class="form-control">
-                <p class="fw-bold mt-3">School Address</p>
-                <input type="text" name="" id="" class="form-control">
+                <p class="fw-bold"><label for="vocational">Technical Vocational (Leave it blank if you have not enrolled to vocational course before)</label></p>
+                <input type="text" name="" id="vocational" class="form-control">
+                <p class="fw-bold mt-3"><label for="addressVoc">School Address</label></p>
+                <input type="text" name="" id="addressVoc" class="form-control">
                 <p class="fw-bold mt-3">Location</p>
                 <div class="d-flex justify-content-between">
                     <div style="width: 50%;">
-                        <label for="location">Within Quezon City?</label>
-                        <select class="form-select d-inline-block" id="location" style="width: 65%;">
+                        <label for="locationVoc">Within Quezon City?</label>
+                        <select class="form-select d-inline-block" id="locationVoc" style="width: 65%;">
                             <option selected>Select One</option>
-                            <option value="abm">ABM</option>
-                            <option value="humss">HUMSS</option>
-                            <option value="STEM">STEM</option>
-                            <option value="ICT">ICT</option>
-                            <option value="GAS">GAS</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
                         </select>
                     </div>
                     <div style="width: 50%;">
-                        <label for="School">School Type</label>
-                        <select class="form-select d-inline-block" id="School" style="width: 80%;">
+                        <label for="SchoolVoc">School Type</label>
+                        <select class="form-select d-inline-block" id="SchoolVoc" style="width: 80%;">
                             <option selected>Select One</option>
-                            <option value="abm">ABM</option>
-                            <option value="humss">HUMSS</option>
-                            <option value="STEM">STEM</option>
-                            <option value="ICT">ICT</option>
-                            <option value="GAS">GAS</option>
+                            <option value="Public">Public</option>
+                            <option value="Private">Private</option>
+                            <option value="Local">Local</option>
                         </select>
                     </div>
                 </div>
                 <div class="mt-3 row row-cols-3">
                     <div class="d-flex flex-column col">
-                        <p class="fw-bold"><label for="course">Course</label></p>
-                        <select class="form-select d-inline-block" id="course">
-                            <option selected>Select One</option>
-                            <option value="abm">ABM</option>
-                            <option value="humss">HUMSS</option>
-                            <option value="STEM">STEM</option>
-                            <option value="ICT">ICT</option>
-                            <option value="GAS">GAS</option>
-                        </select>
+                        <p class="fw-bold"><label for="courseVocational">Course</label></p>
+                        <input type="text" name="" id="courseVocational" class="form-control">
                     </div>
                     <div class="d-flex flex-column col">
-                        <p class="fw-bold"><label for="graduated">Date Graduated</label></p>
-                        <input type="date" name="" id="graduated" class="form-control">
+                        <p class="fw-bold"><label for="graduatedVoc">Date Graduated</label></p>
+                        <input type="date" name="" id="graduatedVoc" class="form-control">
                     </div>
                     <div class="d-flex flex-column col">
-                        <p class="fw-bold"><label for="honors">Honors Received (With Certificate)</label></p>
-                        <input type="text" name="" id="honors" class="form-control">
+                        <p class="fw-bold"><label for="honorsVoc">Honors Received (With Certificate)</label></p>
+                        <input type="text" name="" id="honorsVoc" class="form-control" placeholder="i.e. Top 1, High Honors, etc.">
                     </div>
                 </div>
                 <hr class="divider">
-                <p class="fw-bold">Name of School (Senior High School or High School)</p>
-                <input type="text" name="" id="" class="form-control">
-                <p class="fw-bold mt-3">School Address</p>
-                <input type="text" name="" id="" class="form-control">
+                <p class="fw-bold"><label for="hs">Name of School (Senior High School or High School)</label></p>
+                <input type="text" name="" id="hs" class="form-control">
+                <p class="fw-bold mt-3"><label for="addressHs">School Address</label></p>
+                <input type="text" name="" id="addressHs" class="form-control">
                 <p class="fw-bold mt-3">Location</p>
                 <div class="d-flex justify-content-between">
                     <div style="width: 50%;">
-                        <label for="location">Within Quezon City?</label>
-                        <select class="form-select d-inline-block" id="location" style="width: 65%;">
+                        <label for="locationHs">Within Quezon City?</label>
+                        <select class="form-select d-inline-block" id="locationHs" style="width: 65%;">
                             <option selected>Select One</option>
-                            <option value="abm">ABM</option>
-                            <option value="humss">HUMSS</option>
-                            <option value="STEM">STEM</option>
-                            <option value="ICT">ICT</option>
-                            <option value="GAS">GAS</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
                         </select>
                     </div>
                     <div style="width: 50%;">
-                        <label for="School">School Type</label>
-                        <select class="form-select d-inline-block" id="School" style="width: 80%;">
+                        <label for="SchoolHs">School Type</label>
+                        <select class="form-select d-inline-block" id="SchoolHs" style="width: 80%;">
                             <option selected>Select One</option>
-                            <option value="abm">ABM</option>
-                            <option value="humss">HUMSS</option>
-                            <option value="STEM">STEM</option>
-                            <option value="ICT">ICT</option>
-                            <option value="GAS">GAS</option>
+                            <option value="Public">Public</option>
+                            <option value="Private">Private</option>
+                            <option value="Local">Local</option>
                         </select>
                     </div>
                 </div>
                 <div class="mt-3 row row-cols-3">
                     <div class="d-flex flex-column col">
-                        <p class="fw-bold"><label for="course">Course</label></p>
-                        <select class="form-select d-inline-block" id="course">
-                            <option selected>Select One</option>
-                            <option value="abm">ABM</option>
-                            <option value="humss">HUMSS</option>
-                            <option value="STEM">STEM</option>
-                            <option value="ICT">ICT</option>
-                            <option value="GAS">GAS</option>
-                        </select>
+                        <p class="fw-bold"><label for="courseHs">Course</label></p>
+                        <input type="text" name="" id="courseHs" class="form-control">
                     </div>
                     <div class="d-flex flex-column col">
-                        <p class="fw-bold"><label for="graduated">Date Graduated</label></p>
-                        <input type="date" name="" id="graduated" class="form-control">
+                        <p class="fw-bold"><label for="graduatedHs">Date Graduated</label></p>
+                        <input type="date" name="" id="graduatedHs" class="form-control">
                     </div>
                     <div class="d-flex flex-column col">
-                        <p class="fw-bold"><label for="honors">Honors Received (With Certificate)</label></p>
-                        <input type="text" name="" id="honors" class="form-control">
+                        <p class="fw-bold"><label for="honorsHs">Honors Received (With Certificate)</label></p>
+                        <input type="text" name="" id="honorsHs" class="form-control" placeholder="i.e. Top 1, High Honors, etc.">
                     </div>
                 </div>
                 <div class="d-flex justify-content-between mt-4">
