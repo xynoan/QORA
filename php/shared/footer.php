@@ -32,29 +32,6 @@
                 <h2 class="fw-bold">Office Hours</h2>
                 <p><i class="fa-solid fa-clock"></i> Monday to Friday : 8:00 AM to 5:00 PM </p>
             </div>
-            <div class="form">
-                <h2 class="fw-bold">HOW CAN WE ASSIST? </h2>
-                <p>We are here to address any questions you may have. Please contact us and we will get back to you
-                    as
-                    soon
-                    as possible </p>
-                <form action="#" method="post">
-                    <div class="row row-cols-2 row-gap-1 mb-1 form-grid">
-                        <div class="input-group p-0">
-                            <input class="form-control" type="text" name="" placeholder="Name (LN, FN, MI.)">
-                            <input class="form-control" type="email" name="" placeholder="E-mail Address">
-                        </div>
-                        <div class="input-group p-0">
-                            <input class="form-control" type="number" name="" placeholder="Year Level">
-                            <input class="form-control" type="text" name="" placeholder="Course/Program">
-                        </div>
-                    </div>
-                    <textarea class="d-block form-control" name="" cols="30" rows="10"
-                        placeholder="Compose Message..."></textarea>
-                    <button type="submit" class="rounded-4 p-3 fw-bold mt-2 d-block submit_message"><i
-                            class="fa-solid fa-envelope-open"></i> Send Message</button>
-                </form>
-            </div>
         </div>
     </div>
     <p class="p-3 text-center text-white copyright">Copyright <span id="year"> </span> © Quezon City
