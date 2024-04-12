@@ -72,16 +72,26 @@
             </div>
             <h1 class="mt-3">Student Enlistment Form</h1>
             <hr class="divider">
-            <form action="./year.php" method="post" class="d-flex flex-column align-items-center justify-content-center gap-3">
-                <div id="image-container" class="square border border-3 border-grey d-flex flex-column justify-content-center align-items-center">
-                    <input type="file" id="actual-btn" hidden />
-                    <label for="actual-btn"><i class="fa-solid fa-cloud-arrow-up" style="opacity: 0.5; font-size: 100px;"></i></label>
-                    <span style="color: grey; width: 150px;" class="text-center mt-2"><b>Click to upload</b> or
-                        drag and drop</span>
+            <div class="d-flex justify-content-evenly">
+                <form action="./year.php" method="post" class="d-flex flex-column align-items-center justify-content-center gap-3">
+                    <div id="image-container" class="square border border-3 border-grey d-flex flex-column justify-content-center align-items-center">
+                        <input type="file" id="actual-btn" hidden />
+                        <label for="actual-btn"><i class="fa-solid fa-cloud-arrow-up" style="opacity: 0.5; font-size: 100px;"></i></label>
+                        <span style="color: grey; width: 150px;" class="text-center mt-2"><b>Click to upload</b> or
+                            drag and drop</span>
+                    </div>
+                    <a href="#" class="text-black"><label for="actual-btn" class="text-decoration-underline" style="cursor: pointer;">Change</label></a>
+                    <button type="submit" class="btn text-white rounded-4" id="submitImage">SUBMIT</button>
+                </form>
+                <div>
+                    <h2 class="text-uppercase text-center">Directions:</h2>
+                    <p>1.  Please upload your <b>recent</b> image.</p>
+                    <p>2.  Image should be <b>clear</b> and <b>high-resolution</b>. </p>
+                    <p>3.  The background should be <b>white</b>.</p>
+                    <p>4.  Accepted formats include JPEG, PNG and GIF.</p>
+                    <p>5.  Ensure the file size does not exceed <b>100MB</b>.</p>
                 </div>
-                <a href="#" class="text-black"><label for="actual-btn" class="text-decoration-underline" style="cursor: pointer;">Change</label></a>
-                <button type="submit" class="btn text-white rounded-4" id="submitImage">SUBMIT</button>
-            </form>
+            </div>
         </div>
     </div>
     <?php
