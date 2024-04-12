@@ -179,6 +179,6 @@
         </ul>
     </div>
     <p class="text-uppercase fs-4 text-center text-white p-2 m-0 border-top border-3 border-primary"
-        style="background-color: black;">mula sa tahanan ng husay
+        style="background-color: #212529;">mula sa tahanan ng husay
         at talino, para sa bayan...</p>
 </nav>
