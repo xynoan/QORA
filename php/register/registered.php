@@ -71,7 +71,7 @@
         <div id="content-form" class="p-5 mt-3 d-flex justify-content-center flex-column align-items-center gap-4">
             <div class="yay p-4 rounded-5 d-flex justify-content-center text-center">
                 <div style="width: 50%;">
-                    <i class="fa-regular fa-circle-check text-success" style="font-size: 75px;"></i>
+                    <i class="fa-regular fa-circle-check" style="font-size: 75px; color: var(--main-color);"></i>
                     <h1 class="text-success">Thank you!</h1>
                     <h2>You are successfully registered. Good luck on your application.</h2>
                 </div>
