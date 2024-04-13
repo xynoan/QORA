@@ -11,7 +11,7 @@
     ?>
     <style>
         h1 {
-            width: 60%;
+            width: 70%;
         }
 
         h3.motto {
@@ -28,6 +28,26 @@
 
         section:first-child>div {
             height: 100vh;
+        }
+
+        .years {
+            text-shadow:
+                0 1px 0px #010641,
+                1px 0 0px #010641,
+                1px 2px 1px #010641,
+                2px 1px 1px #010641,
+                2px 3px 2px #010641,
+                3px 2px 2px #010641,
+                3px 4px 2px #010641,
+                4px 3px 3px #010641,
+                4px 5px 3px #010641,
+                5px 4px 2px #010641,
+                5px 6px 2px #010641,
+                6px 5px 2px #010641,
+                6px 7px 1px #010641,
+                7px 6px 1px #010641,
+                7px 8px 0px #010641,
+                8px 7px 0px #010641;
         }
 
         .first_half {
@@ -123,24 +143,13 @@
     <main>
         <section>
             <div class="container d-flex align-items-end justify-content-end">
-                <h1 id="navigation_links" class="fw-bold text-center text-white text-uppercase p-4">30 years of empowering education from #1 city to global society</h1>
+                <h1 id="navigation_links" class="fw-bold text-end text-white text-uppercase p-4"><span style="font-size: 150px;" class="years" id="countdown">30</span> <br>years of empowering education from #1 city to global society</h1>
             </div>
         </section>
-        <section>
+        <section class="mb-5">
             <div class="container">
-                <h2 class="fw-bold py-4 fs-1" style="color: var(--brown);">Hello, Future QCian!</h2>
-                <div class="d-flex gap-4 flex-wrap">
-                    <div class="first_half">
-                        <a href="./be_a_qcian/dpn.php" id="dpn" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Data Privacy Notice</a>
-                        <a href="./be_a_qcian/gap.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">General Admission Policy</a>
-                        <a href="./be_a_qcian/sdc.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Selection for a degree program and campus</a>
-                        <a href="./be_a_qcian/far.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Freshmen admission requirements</a>
-                        <a href="./be_a_qcian/qcucat.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">QCUCAT procedure</a>
-                        <a href="./be_a_qcian/agc.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Admissions Guidelines: Classification</a>
-                        <a href="./be_a_qcian/agq.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Admissions Guidelines: Qualification</a>
-                        <a href="./be_a_qcian/pc.php" class="text-uppercase nav_buttons text-white p-2 mb-2 text-decoration-none">Program Curriculum</a>
-                        <a href="./be_a_qcian/gs.php" class="text-uppercase nav_buttons text-white p-2 text-decoration-none">Grading System</a>
-                    </div>
+                <h2 class="fw-bold py-4 fs-2" style="color: var(--brown);">Nice to see you again, QCian!</h2>
+                <div class="d-flex gap-4 flex-wrap justify-content-center">
                     <div class="second_half">
                         <div class="register mb-2">
                             <p class="header text-white text-center p-2">NEW APPLICANT</p>
@@ -183,10 +192,51 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="d-flex my-5 gap-5">
+                    <div style="width: 33%;">
+                        <i class="fa-solid fa-square-check" style="color: var(--brown); font-size: 40px;"></i>
+                        <h2 class="fw-bold fs-2" style="color: var(--brown);">Be a QCIAN!</h2>
+                        <p><a href="./be_a_qcian/gap.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> GENERAL ADMISSION POLICY</a></p>
+                        <p><a href="./be_a_qcian/sdc.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> SELECTION FOR A DEGREE PROGRAM AND CAMPUS</a></p>
+                        <p><a href="./be_a_qcian/gs.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> GRADING SYSTEM</a></p>
+                    </div>
+                    <div style="width: 34%;">
+                        <i class="fa-solid fa-magnifying-glass p-2 rounded-5" style="color: white; font-size: 20px; border: 2px solid var(--brown); background-color: var(--brown);"></i>
+                        <h2 class="fw-bold fs-2" style="color: var(--brown);">APPLY NOW</h2>
+                        <p><a href="./be_a_qcian/far.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> FRESHMEN ADMISSION REQUIREMENTS</a></p>
+                        <p><a href="./be_a_qcian/qcucat.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> QCUCAT PROCEDURE</a></p>
+                        <p><a href="./be_a_qcian/agc.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> ADMISSIONS GUIDELINES: Classifications</a></p>
+                        <p><a href="./be_a_qcian/agq.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> ADMISSIONS GUIDELINES: Qualifications</a></p>
+                    </div>
+                    <div style="width: 33%;">
+                        <img src="../images/QORA-links.png" alt="QORA Links" height="40px">
+                        <h2 class="fw-bold fs-2" style="color: var(--brown);">QORA Links</h2>
+                        <p><a href="#" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> ONLINE APPOINTMENT</a></p>
+                        <p><a href="./be_a_qcian/dpn.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> DATA PRIVACY NOTICE</a></p>
+                        <p><a href="./be_a_qcian/pc.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> PROGRAM CURRICULUM</a></p>
+                    </div>
+                </div>
                 <h3 class="fs-2 my-4 motto text-uppercase">equipping youth for the future, qcu offers education and holistic development to prepare you for both career success and a fulfilling life since 1994.</h3>
             </div>
         </section>
     </main>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const countdownSpan = document.getElementById("countdown");
+            let count = 1;
+            const interval = setInterval(() => {
+                countdownSpan.textContent = count + " ";
+                count++;
+                if (count > 30) {
+                    clearInterval(interval);
+                }
+            }, 25);
+        });
+    </script>
     <?php
     $beAQcianPath = "./be_a_qcian/";
     $loginPath = "./login/";
