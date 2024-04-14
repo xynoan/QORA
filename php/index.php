@@ -221,6 +221,7 @@
             </div>
         </section>
     </main>
+    <script src="https://accounts.google.com/gsi/client" async></script>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const countdownSpan = document.getElementById("countdown");

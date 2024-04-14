@@ -54,10 +54,16 @@
                 </div>
                 <button id="signin" class="btn d-block mb-3 submit_button text-white" type="submit">Log In</button>
                 <p>Don't Have An Account? <a href="../register/index.php" class="text-black">Register</a></p>
-                <!-- <p class="text-center">OR</p> -->
+                <p class="text-center">OR</p>
+                <div id="g_id_onload" data-client_id="773946028665-70hv7ejnlm9fv8muslntjmpiui6sc2uj.apps.googleusercontent.com" data-context="signin" data-ux_mode="popup" data-login_uri="https://localhost:80" data-auto_prompt="false">
+                </div>
+
+                <div class="g_id_signin" data-type="standard" data-shape="pill" data-theme="filled_black" data-text="signin_with" data-size="large" data-logo_alignment="left" data-width="300">
+                </div>
             </form>
         </div>
     </div>
+    <script src="https://accounts.google.com/gsi/client" async></script>
     <?php
     $beAQcianPath = "../be_a_qcian/";
     $loginPath = "./";
