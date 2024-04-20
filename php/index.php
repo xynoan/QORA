@@ -133,7 +133,7 @@
         @media (min-width: 1200px) {
             section:first-child {
                 background-image: url(../images/QORA\ -\ HOMEPAGE.png), url(../images/campus.JPG);
-                background-size: 80% 100%, 100% 100%;
+                background-size: 100% 100%, 100% 100%;
             }
         }
     </style>
