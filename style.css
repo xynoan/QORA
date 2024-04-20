@@ -379,13 +379,6 @@ footer a:hover,
 }
 
 @media (min-width: 1400px) {
-  section:first-child {
-    background-image: url(../images/QORA\ -\ HOMEPAGE.png), url(../images/campus.JPG);
-    background-position: 0% 20%, 0% 30%;
-    background-size: 1700px 1100px, 2000px 1500px;
-    background-repeat: no-repeat;
-  }
-
   .nav-menu ul {
     width: 30%;
   }
