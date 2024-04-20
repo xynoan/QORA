@@ -79,10 +79,6 @@
             padding-left: 20px !important;
         }
 
-        .login {
-            height: 270px;
-        }
-
         .register,
         .login {
             border: 2px solid var(--main-color);
@@ -118,6 +114,21 @@
 
         .forgot_password {
             font-size: 15px;
+        }
+
+        #nav_links {
+            flex-wrap: wrap;
+            padding: 2em;
+        }
+
+        @media (min-width: 768px) {
+            #nav_links {
+                flex-wrap: nowrap;
+            }
+
+            .nav_links_width {
+                width: 33%;
+            }
         }
 
         @media (min-width: 1200px) {
@@ -210,21 +221,21 @@
         </section>
         <section>
             <div class="container">
-                <div class="d-flex my-5 gap-5">
-                    <div style="width: 33%;">
+                <div class="d-flex my-5 gap-5" id="nav_links">
+                    <div class="nav_links_width">
                         <h2 class="fw-bold fs-2" style="color: var(--brown);"><i class="fa-solid fa-square-check me-2" style="color: var(--brown); font-size: 40px;"></i>Be a QCIAN!</h2>
                         <p><a href="./be_a_qcian/gap.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> GENERAL ADMISSION POLICY</a></p>
                         <p><a href="./be_a_qcian/sdc.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> SELECTION FOR A DEGREE PROGRAM AND CAMPUS</a></p>
                         <p><a href="./be_a_qcian/gs.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> GRADING SYSTEM</a></p>
                     </div>
-                    <div style="width: 34%;">
+                    <div class="nav_links_width">
                         <h2 class="fw-bold fs-2" style="color: var(--brown);"><i class="fa-solid fa-magnifying-glass p-2 rounded-5 me-2" style="color: white; font-size: 20px; border: 2px solid var(--brown); background-color: var(--brown); position: relative; bottom: 7px;"></i>APPLY NOW</h2>
                         <p><a href="./be_a_qcian/far.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> FRESHMEN ADMISSION REQUIREMENTS</a></p>
                         <p><a href="./be_a_qcian/qcucat.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> QCUCAT PROCEDURE</a></p>
                         <p><a href="./be_a_qcian/agc.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> ADMISSIONS GUIDELINES: Classifications</a></p>
                         <p><a href="./be_a_qcian/agq.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> ADMISSIONS GUIDELINES: Qualifications</a></p>
                     </div>
-                    <div style="width: 33%;">
+                    <div class="nav_links_width">
                         <h2 class="fw-bold fs-2" style="color: var(--brown);"><img src="../images/QORA-links.png" alt="QORA Links" height="40px" style="position: relative; left: 17px;">ORA Links</h2>
                         <p><a href="./student/enrollment.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);" disabled><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> ONLINE APPOINTMENT</a></p>
                         <p><a href="./be_a_qcian/dpn.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> DATA PRIVACY NOTICE</a></p>
