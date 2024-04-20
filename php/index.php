@@ -20,9 +20,9 @@
         }
 
         section:first-child {
-            background-image: url(../images/QORA\ -\ HOMEPAGE.png), url(../images/campus.JPG);
-            background-position: 0% 150%, 0% 10%;
-            background-size: 1200px 600px, 1400px 1000px;
+            background-image: url(../images/campus.JPG);
+            background-position: 0% 10%;
+            background-size: 1400px 1000px;
             background-repeat: no-repeat;
         }
 
@@ -120,14 +120,25 @@
             font-size: 15px;
         }
 
+        @media (min-width: 1200px) {
+            section:first-child {
+                background-image: url(../images/QORA\ -\ HOMEPAGE.png), url(../images/campus.JPG);
+                background-position: 0% 150%, 0% 10%;
+                background-size: 1200px 600px, 1400px 1000px;
+                background-repeat: no-repeat;
+            }
+        }
+
         @media (min-width: 1400px) {
             section:first-child {
+                background-image: url(../images/QORA\ -\ HOMEPAGE.png), url(../images/campus.JPG);
                 background-size: 1200px 600px, 1980px 1000px;
             }
         }
 
         @media (min-width: 1800px) {
             section:first-child {
+                background-image: url(../images/QORA\ -\ HOMEPAGE.png), url(../images/campus.JPG);
                 background-size: 1400px 600px, 1980px 1000px;
             }
         }
