@@ -21,7 +21,7 @@
 
         section:first-child {
             background-image: url(../images/campus.JPG);
-            background-size: 100% 100%;
+            background-size: cover;
             background-repeat: no-repeat;
         }
 
@@ -130,10 +130,11 @@
             }
         }
 
-        @media (min-width: 1200px) {
+        @media (min-width: 1000px) {
             section:first-child {
-                background-image: url(../images/QORA\ -\ HOMEPAGE.png), url(../images/campus.JPG);
-                background-size: 100% 100%, 100% 100%;
+                background-image: url(../images/campus.JPG);
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
             }
         }
     </style>
