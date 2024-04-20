@@ -54,10 +54,6 @@
             width: 60%;
         }
 
-        .second_half {
-            width: 35%;
-        }
-
         .first_half>.nav_buttons:hover,
         .register>.register_anchor:hover,
         .login_btn:hover {
@@ -221,7 +217,7 @@
         </section>
         <section>
             <div class="container">
-                <div class="d-flex my-5 gap-5" id="nav_links">
+                <div class="d-flex gap-5" id="nav_links">
                     <div class="nav_links_width">
                         <h2 class="fw-bold fs-2" style="color: var(--brown);"><i class="fa-solid fa-square-check me-2" style="color: var(--brown); font-size: 40px;"></i>Be a QCIAN!</h2>
                         <p><a href="./be_a_qcian/gap.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> GENERAL ADMISSION POLICY</a></p>
@@ -242,7 +238,7 @@
                         <p><a href="./be_a_qcian/pc.php" class="text-decoration-none underline-on-hover" style="color: var(--main-color);"><i class="fa-regular fa-circle-right" style="color: var(--brown); font-size: 20px;"></i> PROGRAM CURRICULUM</a></p>
                     </div>
                 </div>
-                <h3 class="fs-2 my-4 motto text-uppercase">equipping youth for the future, qcu offers education and holistic development to prepare you for both career success and a fulfilling life since 1994.</h3>
+                <h3 class="fs-2 mb-4 motto text-uppercase">equipping youth for the future, qcu offers education and holistic development to prepare you for both career success and a fulfilling life since 1994.</h3>
             </div>
         </section>
     </main>
