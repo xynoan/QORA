@@ -116,6 +116,10 @@
             padding: 2em;
         }
 
+        #countdown {
+            font-size: 15rem;
+        }
+
         @media (min-width: 768px) {
             #nav_links {
                 flex-wrap: nowrap;
@@ -147,7 +151,7 @@
     <main>
         <section>
             <div class="container d-flex align-items-end justify-content-end">
-                <h1 id="navigation_links" class="fw-bold text-end text-white text-uppercase p-4"><span style="font-size: 150px;" class="years" id="countdown">30</span> <br>years of empowering education from #1 city to global society</h1>
+                <h1 id="navigation_links" class="fw-bold text-end text-white text-uppercase p-4"><span class="years" id="countdown">30</span> <br>years of empowering education from #1 city to global society</h1>
             </div>
         </section>
         <section class="mb-5">
