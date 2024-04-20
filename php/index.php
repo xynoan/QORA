@@ -122,10 +122,13 @@
 
         @media (min-width: 1400px) {
             section:first-child {
-                background-image: url(../images/QORA\ -\ HOMEPAGE.png), url(../images/campus.JPG);
-                background-position: 0% 20%, 0% 30%;
-                background-size: 1700px 1100px, 2000px 1500px;
-                background-repeat: no-repeat;
+                background-size: 1200px 600px, 1980px 1000px;
+            }
+        }
+
+        @media (min-width: 1800px) {
+            section:first-child {
+                background-size: 1400px 600px, 1980px 1000px;
             }
         }
     </style>
