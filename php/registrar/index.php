@@ -143,7 +143,7 @@
                             <option value="3">Three</option>
                         </select>
                         <a id="filter-anchor" href="#" onclick="toggleFilter()" class="black-on-hover text-decoration-none text-white p-2 ms-2" style="background-color: var(--main-color);"><i class="fa-solid fa-filter text-white me-2"></i>Filters</a>
-                        <div id="filter-menu" class="p-3 border border-black text-white rounded-4" style="position: absolute; width: 15%; background-color: var(--main-color); left: 680px; visibility: hidden; opacity: 0;">
+                        <div id="filter-menu" class="p-3 border border-black text-white rounded-4" style="position: absolute; width: 200px; max-width: 15%;background-color: var(--main-color); left: 680px; visibility: hidden; opacity: 0;">
                             <span onclick="toggleAcademicYear()" class="white-on-hover">Academic Year ></span>
                             <span onclick="toggleCollegeProgram()" class="white-on-hover">College Program ></span>
                             <span onclick="toggleSection()" class="white-on-hover">Yr. Level/Section ></span>

@@ -77,11 +77,11 @@ hr {
 }
 
 .nav-menu ul {
-  width: 40%;
+  width: 100%;
 }
 
 #level1 {
-  width: 26%;
+  width: 45%;
 }
 
 .nav-menu li {
@@ -108,7 +108,7 @@ hr {
 /* ----------------------------------------- */
 .has-submenu:hover .submenu,
 .has-submenu2:hover .submenu2,
-.has-submenu3:hover .submenu3,
+.has-submenu3:hover ~ .submenu3,
 .has-submenu4:hover .submenu4,
 .has-submenu5:hover .submenu5,
 .has-submenu6:hover .submenu6,
@@ -125,6 +125,7 @@ hr {
 
 .submenu,
 .submenu2,
+.submenu3,
 .submenu4,
 .submenu5,
 .submenu6,
@@ -378,6 +379,12 @@ footer a:hover,
 @media (min-width: 992px) {
   nav {
     background-image: url(./images/QORA\ -\ BANNER.png);
+  }
+}
+
+@media (min-width: 1400px) {
+  #level1 {
+    width: 35%;
   }
 }
 
