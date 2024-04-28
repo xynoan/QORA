@@ -128,12 +128,12 @@
                                     </ul>
                                 </li>
                                 <hr>
-                                <li class="has-submenu6"><a href="#" class="fs-5">Registrar and Admission Division <br>
-                                        <span class="text-uppercase">ms. sheryl p. mostajo</span> (Registrar)
+                                <li class="has-submenu6"><a href="#" class="fs-5">Carlo and Admission Division <br>
+                                        <span class="text-uppercase">ms. sheryl p. mostajo</span> (Carlo)
                                         &nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i></span></a>
                                     <ul class="submenu6">
                                         <li><a href="#" class="fs-5">Contact Number: 8806-3470 <br>
-                                                Email: registrar@qcu.edu.ph</a></li>
+                                                Email: Carlo@qcu.edu.ph</a></li>
                                     </ul>
                                 </li>
                                 <hr>
@@ -152,28 +152,28 @@
             </div>
             <a href="<?php echo $homePagePath ?>index.php" class="text-decoration-none fw-bold fs-2" style="color: var(--main-color);"><img class="qora_image" src="<?php echo $imageLink ?>logo.png" alt="QORA" height="70px"></a>
         </div>
-        <img onclick="toggleProfile()" id="profile_img" src="../../images/iu.jpg" alt="IU" height="50px" class="rounded-5 me-5" style="border: 2px solid var(--main-color); cursor: pointer;">
+        <img onclick="toggleProfile()" id="profile_img" src="../../images/CARLO.jpg" alt="Carlo" height="50px" class="rounded-5 me-5" style="border: 2px solid var(--main-color); cursor: pointer;">
         <div id="profileDiv" class="rounded-5 container p-3">
-            <img id="profile_img" src="../../images/iu.jpg" alt="IU" height="100px" style="border: 2px solid var(--main-color); border-radius: 50%; margin: 10px 0 10px 80px;">
-            <p class="m-0 fw-bold text-center">Mark Joseph Roxas</p>
-            <p class="text-center">roxas.markjoseph@gmail.com</p>
+            <img id="profile_img" src="../../images/CARLO.jpg" alt="Carlo" height="100px" style="border: 2px solid var(--main-color); border-radius: 50%; margin: 10px 0 10px 80px;">
+            <p class="m-0 fw-bold text-center">Nathaniel Carlo Morva</p>
+            <p class="text-center">nathanielcarlo@gmail.com</p>
             <p class="text-center"><i class="fa-solid fa-circle-half-stroke" style="color: var(--main-color);"></i> Theme</p>
             <p class="text-center"><a href="../shared/settings.php" class="text-decoration-none text-black putBorder"><i class="fa-solid fa-sliders" style="rotate: 270deg;"></i> Settings</a></p>
             <hr style="width: 100%;">
             <p class="fw-bold">Switch Account</p>
             <div class="container">
                 <div class="d-flex gap-2">
-                    <img id="profile_img" src="../../images/iu.jpg" alt="IU" height="50px" style="border: 2px solid var(--main-color); border-radius: 50%;">
+                    <img id="profile_img" src="../../images/blake.jpg" alt="blake" height="50px" style="border: 2px solid var(--main-color); border-radius: 50%;">
                     <div class="d-flex flex-column">
-                        <p class="fw-bold m-0" style="font-size: 13px;">Mark Joseph Roxas</p>
-                        <p style="font-size: 13px;" class="m-0">roxas.markjoseph@gmail.com</p>
+                        <p class="fw-bold m-0" style="font-size: 13px;">Blake Justin Bangcaya</p>
+                        <p style="font-size: 13px;" class="m-0">bangcaya.blake@gmail.com</p>
                     </div>
                 </div>
                 <div class="d-flex gap-2">
-                    <img id="profile_img" src="../../images/iu.jpg" alt="IU" height="50px" style="border: 2px solid var(--main-color); border-radius: 50%;">
+                    <img id="profile_img" src="../../images/roxas.png" alt="Carlo" height="50px" style="border: 2px solid var(--main-color); border-radius: 50%;">
                     <div class="d-flex flex-column">
-                        <p class="fw-bold m-0" style="font-size: 13px;">Nathaniel Carlo Morva</p>
-                        <p style="font-size: 13px;" class="m-0">nathanielcarlo@gmail.com</p>
+                        <p class="fw-bold m-0" style="font-size: 13px;">Mark Joseph Roxas</p>
+                        <p style="font-size: 13px;" class="m-0">roxas.markjoseph@gmail.com</p>
                     </div>
                 </div>
                 <div class="d-flex">

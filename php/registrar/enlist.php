@@ -189,11 +189,11 @@
                 <div class="second-half" style="width: 35%;">
                     <div class="border border-black rounded-3 p-5">
                         <div class="mb-4 d-flex flex-column justify-content-center align-items-center text-center">
-                            <img class="border border-black border-2" height="150px" src="https://i.pinimg.com/564x/fc/d8/63/fcd863cae619ccaa27ae4c69d97d901a.jpg" alt="">
-                            <span class="name fw-bold fs-5 mb-2">Mark Joseph Roxas</span>
+                            <img class="border border-black border-2" height="150px" src="../../images/BLAKE.jpg" alt="blake">
+                            <span class="name fw-bold fs-5 mb-2">Blake Justin Bangcaya</span>
                             <span class="year sub-span rounded-2 mb-2">REGULAR 3RD YR - 1ST SEM</span>
                             <span class="status text-success sub-span rounded-2 mb-2">CLEARED</span>
-                            <span class="gwa sub-span rounded-2">GWA: 1.64</span>
+                            <span class="gwa sub-span rounded-2">GWA: 1</span>
                         </div>
                         <p class="text-center"><a href="./view_profile.php" class="underline-on-hover text-decoration-none text-black">View Full Information</a></p>
                     </div>

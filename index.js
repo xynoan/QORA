@@ -60,6 +60,32 @@ function removeActiveClassFromAll(...elements) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+    // hamburger
+    let QCIAN = document.getElementById("be_a_QCIAN");
+    let subMenuQCIAN = document.getElementById("qcian-Submenu");
+    let programs = document.getElementById("programsOffered");
+    let subMenuPrograms = document.getElementById("programsSubmenu");
+    let hamburgerNav = document.getElementById("hamburgerNav");
+
+    QCIAN.addEventListener("click", () => {
+        subMenuQCIAN.classList.toggle("active");
+    });
+
+    programs.addEventListener("click", () => {
+        subMenuPrograms.classList.toggle("active");
+    });
+
+    QCIAN.addEventListener('mouseenter', () => {
+        hamburgerNav.appendChild(subMenuQCIAN);
+        subMenuQCIAN.classList.add("active");
+        subMenuPrograms.remove();
+    });
+
+    programs.addEventListener('mouseenter', () => {
+        hamburgerNav.appendChild(subMenuPrograms);
+        subMenuPrograms.classList.add("active");
+        subMenuQCIAN.remove();
+    });
     // form
     let previousButton = document.getElementById("previousButton");
 

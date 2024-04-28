@@ -129,7 +129,7 @@
                         </div>
                     </div>
                     <div class="second-half">
-                        <img height="170px" src="https://i.pinimg.com/564x/fc/d8/63/fcd863cae619ccaa27ae4c69d97d901a.jpg" alt="">
+                        <img height="170px" src="../../images/CARLO.jpg" alt="Carlo">
                     </div>
                 </div>
                 <div class="container text-center">

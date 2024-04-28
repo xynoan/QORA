@@ -91,14 +91,16 @@
     <div class="container" id="main-container">
         <div id="content-form" class="p-5 mt-3">
             <?php include('../shared/logoutModal.php') ?>
-            <div class="d-flex flex-column justify-content-center align-items-center">
-                <img src="../../images/QCU-Logo.png" alt="QCU" height="100px" style="position: absolute; top: 210px; left: 375px;">
-                <p class="fw-bold fs-4 m-0">QUEZON CITY UNIVERSITY</p>
-                <p class="m-0">673 Quirino Hi-Way, San Bartolome, Novaliches Q.C</p>
-                <p class="fw-bold fs-5 m-0">ADMISSIONS OFFICE</p>
-                <p class="m-0">STUDENT APPLICATION FORM</p>
-                <p><span class="text-danger">1st</span> SEM, AY: <span class="text-danger">2024-2025</span></p>
-                <img src="../../images/iu.jpg" alt="IU" height="150px" style="position: absolute; left: 950px; border: 2px solid black;">
+            <div class="d-flex justify-content-evenly">
+                <img src="../../images/QCU-Logo.png" alt="QCU" height="100px">
+                <div class="text-center">
+                    <p class="fw-bold fs-4 m-0">QUEZON CITY UNIVERSITY</p>
+                    <p class="m-0">673 Quirino Hi-Way, San Bartolome, Novaliches Q.C</p>
+                    <p class="fw-bold fs-5 m-0">ADMISSIONS OFFICE</p>
+                    <p class="m-0">STUDENT APPLICATION FORM</p>
+                    <p><span class="text-danger">1st</span> SEM, AY: <span class="text-danger">2024-2025</span></p>
+                </div>
+                <img src="../../images/blake.jpg" alt="blake" height="150px" style="border: 2px solid black;">
             </div>
             <!-- ----------------------------------------------------------------------------------- -->
             <h1 class="fs-2">Personal Information</h1>
